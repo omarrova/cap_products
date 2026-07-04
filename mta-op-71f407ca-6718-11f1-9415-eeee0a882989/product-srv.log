@@ -1,0 +1,608 @@
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:21.038954] Added process: "web" (STDOUT, API)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:21.045991] Created app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:21.139077] Updating process: "web" (STDOUT, API)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:21.193880] Scaling process: "web" (STDOUT, API)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:40.822318] Uploading app package for app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:41.023302] Updated app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:50.631722] Creating build for app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:51.036880] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:51.087877] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:51.087966] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 57578c84-72d4-4d42-a5b4-b1feabdedb45 (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:51.933137] Security group rules were updated (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:52.031003] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 57578c84-72d4-4d42-a5b4-b1feabdedb45 (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:53.260790] Downloading app package... (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:55.000771] Downloaded app package (11.5M) (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:55.132031] -----> Nodejs Buildpack version 1.9.1 (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:55.798207] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:55.798236] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:10:55.798306] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:00.433263] -----> Installing binaries (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:00.433485] engines.node (package.json): >=20 (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:00.433502] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:00.433557] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:00.433710] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 06 13 11:11:00.665#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13207#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:00.434004] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.195779] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.195811] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.196] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.587462] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.587481] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.590449] NODE_ENV=production (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.590465] NODE_HOME=/tmp/contents2673621209/deps/0/node (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.590468] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.590472] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.590474] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.590499] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.590576] -----> Building dependencies (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.590590] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:03.590671] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:04.465335] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:04.467240] npm notice (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:04.467264] npm notice New minor version of npm available! 11.12.1 -> 11.17.0 (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:04.467267] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0 (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:04.467270] npm notice To update run: npm install -g npm@11.17.0 (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:04.467273] npm notice (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:04.532506] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:05.594936] removed 75 packages in 977ms (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:05.595201] 36 packages are looking for funding (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:05.595309] run `npm fund` for details (STDOUT, STG)#
+#2026 06 13 11:11:10.613#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13209#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:06.721247] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 13 11:11:20.622#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13215#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:17.964058] Exit status 0 (STDOUT, STG)#
+#2026 06 13 11:11:20.622#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13215#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:17.964106] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 13 11:11:20.622#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13215#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:17.964143] Uploading droplet... (STDOUT, STG)#
+#2026 06 13 11:11:20.622#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13215#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:17.964628] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 13 11:11:20.622#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13215#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:18.002008] Uploaded build artifacts cache (218B) (STDOUT, STG)#
+#2026 06 13 11:11:20.622#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13215#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:18.714067] Creating droplet for app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:11:30.675#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13221#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:20.790977] Uploaded droplet (62.6M) (STDOUT, STG)#
+#2026 06 13 11:11:30.675#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13221#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:20.815481] Uploading complete (STDOUT, STG)#
+#2026 06 13 11:11:30.675#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13221#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:21.037077] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 57578c84-72d4-4d42-a5b4-b1feabdedb45 (STDOUT, STG)#
+#2026 06 13 11:11:30.675#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13221#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:21.037122] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 57578c84-72d4-4d42-a5b4-b1feabdedb45 (STDOUT, STG)#
+#2026 06 13 11:11:30.675#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13221#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:21.085688] Staging complete for build 57578c84-72d4-4d42-a5b4-b1feabdedb45 (STDOUT, API)#
+#2026 06 13 11:11:30.675#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13221#
+[PollStageAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:23.747575] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 57578c84-72d4-4d42-a5b4-b1feabdedb45 (STDOUT, STG)#
+#2026 06 13 11:11:40.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:30.744171] Updated app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 ({:droplet_guid=>"eb73e8ba-913f-4c97-ad25-24449df983fc"}) (STDOUT, API)#
+#2026 06 13 11:11:40.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:31.003622] Creating revision for app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:11:40.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:31.048025] Starting app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:11:40.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:31.268280] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance d68ec4d1-9684-422d-5a98-88b7 (STDOUT, CELL)#
+#2026 06 13 11:11:40.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:32.024072] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:11:40.691#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:32.121181] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance d68ec4d1-9684-422d-5a98-88b7 (STDOUT, CELL)#
+#2026 06 13 11:11:40.691#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:32.954351] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:11:40.691#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:38.339095] Downloaded droplet (62.6M) (STDOUT, CELL)#
+#2026 06 13 11:11:40.691#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:38.339306] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:11:40.691#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:38.455100] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:11:40.691#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:38.671366] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:11:40.691#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:39.112788] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:11:40.691#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:39.112814] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:11:40.691#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:39.118547] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:11:40.691#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32004#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:39.188885] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:11:50.621#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32008#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:45.583841] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance d68ec4d1-9684-422d-5a98-88b7 (STDOUT, CELL)#
+#2026 06 13 11:11:50.621#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32008#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:45.583871] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance d68ec4d1-9684-422d-5a98-88b7 (STDOUT, CELL)#
+#2026 06 13 11:11:50.621#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32008#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:45.587450] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:11:50.621#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32008#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:45.599476] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"d68ec4d1-9684-422d-5a98-88b7", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1781349105564859644, "version"=>"b4fd7b68-743a-4973-80a1-ee45192583d9"} (STDOUT, API)#
+#2026 06 13 11:11:50.621#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32008#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:45.702035] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 29f70528-75c7-45b9-7b0a-188b (STDOUT, CELL)#
+#2026 06 13 11:11:50.621#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32008#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:45.728061] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:11:50.621#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32008#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:46.500717] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:11:50.621#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32008#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:46.670682] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 29f70528-75c7-45b9-7b0a-188b (STDOUT, CELL)#
+#2026 06 13 11:11:50.621#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32008#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:48.115611] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance d68ec4d1-9684-422d-5a98-88b7 (STDOUT, CELL)#
+#2026 06 13 11:11:50.621#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32008#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:48.316974] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:12:00.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32017#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:53.681294] Downloaded droplet (62.6M) (STDOUT, CELL)#
+#2026 06 13 11:12:00.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32017#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:53.681469] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:12:00.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32017#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:53.809154] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:00.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32017#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:54.010030] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:00.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32017#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:54.465650] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:00.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32017#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:54.465683] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:00.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32017#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:54.472473] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:12:00.690#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32017#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:11:54.550719] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:01.084992] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 29f70528-75c7-45b9-7b0a-188b (STDOUT, CELL)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:01.085046] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 29f70528-75c7-45b9-7b0a-188b (STDOUT, CELL)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:01.089070] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:01.102460] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"29f70528-75c7-45b9-7b0a-188b", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1781349121064923512, "version"=>"b4fd7b68-743a-4973-80a1-ee45192583d9"} (STDOUT, API)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:01.202003] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 36a51377-120a-4c64-759a-e763 (STDOUT, CELL)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:01.234021] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:02.001573] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:02.082497] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 36a51377-120a-4c64-759a-e763 (STDOUT, CELL)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:03.096889] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:03.434981] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 29f70528-75c7-45b9-7b0a-188b (STDOUT, CELL)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:05.133434] Downloaded droplet (STDOUT, CELL)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:05.133582] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:05.261420] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:05.469341] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:05.932203] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:05.932234] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:05.938197] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:12:10.745#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32022#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:06.004603] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:20.777#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13237#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:13.193224] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 36a51377-120a-4c64-759a-e763 (STDOUT, CELL)#
+#2026 06 13 11:12:20.777#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13237#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:13.193259] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 36a51377-120a-4c64-759a-e763 (STDOUT, CELL)#
+#2026 06 13 11:12:20.777#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13237#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:13.211560] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:12:20.777#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13237#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:13.224900] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"36a51377-120a-4c64-759a-e763", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1781349133189903366, "version"=>"b4fd7b68-743a-4973-80a1-ee45192583d9"} (STDOUT, API)#
+#2026 06 13 11:12:20.777#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13237#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:13.360804] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:12:20.777#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13237#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:15.632210] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 36a51377-120a-4c64-759a-e763 (STDOUT, CELL)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:13.193224] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 36a51377-120a-4c64-759a-e763 (STDOUT, CELL)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:13.193259] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 36a51377-120a-4c64-759a-e763 (STDOUT, CELL)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:13.211560] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:13.224900] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"36a51377-120a-4c64-759a-e763", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1781349133189903366, "version"=>"b4fd7b68-743a-4973-80a1-ee45192583d9"} (STDOUT, API)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:13.360804] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:15.632210] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 36a51377-120a-4c64-759a-e763 (STDOUT, CELL)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:21.578161] Stopping app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:21.739042] Starting app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:21.958230] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 45365050-0abc-4f6e-5543-be7f (STDOUT, CELL)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:22.765745] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:22.839862] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 45365050-0abc-4f6e-5543-be7f (STDOUT, CELL)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:23.611741] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:29.070862] Downloaded droplet (62.6M) (STDOUT, CELL)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:29.071292] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:29.231897] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:29.446001] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:29.877064] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:29.877078] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:29.883058] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:12:30.770#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32034#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:29.955711] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:40.933#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13241#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:37.332090] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 45365050-0abc-4f6e-5543-be7f (STDOUT, CELL)#
+#2026 06 13 11:12:40.933#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13241#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:37.332151] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 45365050-0abc-4f6e-5543-be7f (STDOUT, CELL)#
+#2026 06 13 11:12:40.933#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13241#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:37.335060] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:12:40.933#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13241#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:37.348932] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"45365050-0abc-4f6e-5543-be7f", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1781349157311798018, "version"=>"8bf88847-b92b-4e17-a9c0-c35692666c61"} (STDOUT, API)#
+#2026 06 13 11:12:40.933#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13241#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:37.453574] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 7eeba804-e63c-468b-6a28-1ea3 (STDOUT, CELL)#
+#2026 06 13 11:12:40.933#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13241#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:37.510216] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:12:40.933#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13241#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:38.253073] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:12:40.933#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13241#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:38.347582] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 7eeba804-e63c-468b-6a28-1ea3 (STDOUT, CELL)#
+#2026 06 13 11:12:40.933#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13241#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:39.551376] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:12:40.933#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13241#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:39.640338] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 45365050-0abc-4f6e-5543-be7f (STDOUT, CELL)#
+#2026 06 13 11:12:50.844#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32045#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:45.037697] Downloaded droplet (62.6M) (STDOUT, CELL)#
+#2026 06 13 11:12:50.844#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32045#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:45.037850] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:12:50.844#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32045#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:45.160003] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:50.844#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32045#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:45.380757] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:50.844#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32045#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:45.836970] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:50.844#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32045#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:45.837] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:12:50.844#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32045#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:45.842653] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:12:50.844#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32045#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:45.921746] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:52.876124] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 7eeba804-e63c-468b-6a28-1ea3 (STDOUT, CELL)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:52.876178] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 7eeba804-e63c-468b-6a28-1ea3 (STDOUT, CELL)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:52.878048] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:52.889560] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"7eeba804-e63c-468b-6a28-1ea3", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1781349172851782430, "version"=>"8bf88847-b92b-4e17-a9c0-c35692666c61"} (STDOUT, API)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:53.056083] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:53.134946] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 5a27ea67-6a62-4bdf-6e2e-3a43 (STDOUT, CELL)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:53.909712] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:54.004098] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 5a27ea67-6a62-4bdf-6e2e-3a43 (STDOUT, CELL)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:55.079523] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:55.290669] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 7eeba804-e63c-468b-6a28-1ea3 (STDOUT, CELL)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:56.997439] Downloaded droplet (STDOUT, CELL)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:56.997695] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:57.136459] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:57.353864] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:57.780782] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:57.780815] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:57.786619] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:13:00.832#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32050#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:12:57.859301] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:10.824#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32057#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:04.615479] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 5a27ea67-6a62-4bdf-6e2e-3a43 (STDOUT, CELL)#
+#2026 06 13 11:13:10.824#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32057#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:04.615531] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 5a27ea67-6a62-4bdf-6e2e-3a43 (STDOUT, CELL)#
+#2026 06 13 11:13:10.824#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32057#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:04.634492] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:13:10.824#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32057#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:04.646518] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"5a27ea67-6a62-4bdf-6e2e-3a43", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1781349184611857842, "version"=>"8bf88847-b92b-4e17-a9c0-c35692666c61"} (STDOUT, API)#
+#2026 06 13 11:13:10.824#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32057#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:04.762474] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:13:10.824#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32057#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:07.073873] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 5a27ea67-6a62-4bdf-6e2e-3a43 (STDOUT, CELL)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:04.615479] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 5a27ea67-6a62-4bdf-6e2e-3a43 (STDOUT, CELL)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:04.615531] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 5a27ea67-6a62-4bdf-6e2e-3a43 (STDOUT, CELL)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:04.634492] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:04.646518] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"5a27ea67-6a62-4bdf-6e2e-3a43", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1781349184611857842, "version"=>"8bf88847-b92b-4e17-a9c0-c35692666c61"} (STDOUT, API)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:04.762474] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:07.073873] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 5a27ea67-6a62-4bdf-6e2e-3a43 (STDOUT, CELL)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:13.124646] Stopping app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:13.293523] Starting app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:13.644017] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance e319e3d2-ad7f-4e52-4b51-31bc (STDOUT, CELL)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:14.437949] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:14.815694] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance e319e3d2-ad7f-4e52-4b51-31bc (STDOUT, CELL)#
+#2026 06 13 11:13:20.926#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12470#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:15.833922] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:20.760663] Downloaded droplet (62.6M) (STDOUT, CELL)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:20.760785] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:20.908701] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:21.135413] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:21.591335] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:21.591369] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:21.596766] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:21.663376] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:28.888909] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance e319e3d2-ad7f-4e52-4b51-31bc (STDOUT, CELL)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:28.888946] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance e319e3d2-ad7f-4e52-4b51-31bc (STDOUT, CELL)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:28.894250] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:28.904678] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"e319e3d2-ad7f-4e52-4b51-31bc", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1781349208871899679, "version"=>"81ae1d32-df75-4e44-8808-71f2fae1ceea"} (STDOUT, API)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:29.008301] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance d0e42192-3487-47a0-45c6-0e74 (STDOUT, CELL)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:29.061828] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:29.824802] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:13:30.907#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13243#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:29.923296] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance d0e42192-3487-47a0-45c6-0e74 (STDOUT, CELL)#
+#2026 06 13 11:13:40.918#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13245#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:30.437487] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:13:40.918#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13245#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:31.332295] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance e319e3d2-ad7f-4e52-4b51-31bc (STDOUT, CELL)#
+#2026 06 13 11:13:40.918#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13245#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:36.351553] Downloaded droplet (62.6M) (STDOUT, CELL)#
+#2026 06 13 11:13:40.918#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13245#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:36.351712] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:13:40.918#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13245#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:36.488677] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:40.918#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13245#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:36.687336] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:40.918#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13245#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:37.102113] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:40.918#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13245#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:37.102141] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:40.918#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13245#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:37.107808] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:13:40.918#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13245#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:37.183510] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:43.517850] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance d0e42192-3487-47a0-45c6-0e74 (STDOUT, CELL)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:43.517892] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance d0e42192-3487-47a0-45c6-0e74 (STDOUT, CELL)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:43.525858] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:43.539841] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"d0e42192-3487-47a0-45c6-0e74", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1781349223501063182, "version"=>"81ae1d32-df75-4e44-8808-71f2fae1ceea"} (STDOUT, API)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:43.641158] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance db7482fc-1a60-46ee-6509-a2bd (STDOUT, CELL)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:43.686253] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:44.449964] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:44.557667] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance db7482fc-1a60-46ee-6509-a2bd (STDOUT, CELL)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:45.694816] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:46.112953] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance d0e42192-3487-47a0-45c6-0e74 (STDOUT, CELL)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:47.543530] Downloaded droplet (STDOUT, CELL)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:47.543918] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:47.649631] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:47.866087] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:48.320197] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:48.320228] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:48.326238] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:13:50.909#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-12472#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:48.407147] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:00.959#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13247#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:54.898447] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance db7482fc-1a60-46ee-6509-a2bd (STDOUT, CELL)#
+#2026 06 13 11:14:00.959#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13247#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:54.898486] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance db7482fc-1a60-46ee-6509-a2bd (STDOUT, CELL)#
+#2026 06 13 11:14:00.959#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13247#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:54.916829] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:14:00.959#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13247#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:54.929515] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"db7482fc-1a60-46ee-6509-a2bd", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1781349234894809172, "version"=>"81ae1d32-df75-4e44-8808-71f2fae1ceea"} (STDOUT, API)#
+#2026 06 13 11:14:00.959#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13247#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:55.042268] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:14:00.959#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13247#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:57.300411] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance db7482fc-1a60-46ee-6509-a2bd (STDOUT, CELL)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:54.898447] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance db7482fc-1a60-46ee-6509-a2bd (STDOUT, CELL)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:54.898486] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance db7482fc-1a60-46ee-6509-a2bd (STDOUT, CELL)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:54.916829] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:54.929515] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"db7482fc-1a60-46ee-6509-a2bd", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1781349234894809172, "version"=>"81ae1d32-df75-4e44-8808-71f2fae1ceea"} (STDOUT, API)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:55.042268] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:13:57.300411] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance db7482fc-1a60-46ee-6509-a2bd (STDOUT, CELL)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:01.626178] Stopping app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:01.792376] Starting app with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 (STDOUT, API)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:02.030237] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance a9b2ba8f-dadb-4e68-6998-e586 (STDOUT, CELL)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:02.819894] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:02.950174] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance a9b2ba8f-dadb-4e68-6998-e586 (STDOUT, CELL)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:03.726674] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:09.019421] Downloaded droplet (62.6M) (STDOUT, CELL)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:09.019550] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:09.159931] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:09.372015] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:09.808466] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:09.808495] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:09.814073] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:14:11.016#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-13248#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:09.887481] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:20.942#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32102#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:16.219592] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance a9b2ba8f-dadb-4e68-6998-e586 (STDOUT, CELL)#
+#2026 06 13 11:14:20.942#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32102#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:16.219626] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance a9b2ba8f-dadb-4e68-6998-e586 (STDOUT, CELL)#
+#2026 06 13 11:14:20.942#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32102#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:16.223553] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:14:20.942#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32102#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:16.234653] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"a9b2ba8f-dadb-4e68-6998-e586", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1781349256200644560, "version"=>"004f15e3-ceac-4afc-8cbb-90e14b529780"} (STDOUT, API)#
+#2026 06 13 11:14:20.942#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32102#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:16.353617] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 8395c337-637a-415a-571c-05d4 (STDOUT, CELL)#
+#2026 06 13 11:14:20.942#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32102#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:16.378379] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:14:20.942#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32102#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:17.132717] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:14:20.942#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32102#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:17.231096] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 8395c337-637a-415a-571c-05d4 (STDOUT, CELL)#
+#2026 06 13 11:14:20.942#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32102#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:18.132655] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:14:20.942#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32102#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:18.854182] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance a9b2ba8f-dadb-4e68-6998-e586 (STDOUT, CELL)#
+#2026 06 13 11:14:30.975#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32106#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:23.451800] Downloaded droplet (62.6M) (STDOUT, CELL)#
+#2026 06 13 11:14:30.975#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32106#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:23.452178] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:14:30.975#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32106#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:23.587643] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:30.975#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32106#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:23.789164] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:30.975#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32106#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:24.192485] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:30.975#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32106#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:24.192511] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:30.975#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32106#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:24.198905] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:14:30.975#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32106#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:24.270905] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:31.239452] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 8395c337-637a-415a-571c-05d4 (STDOUT, CELL)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:31.239490] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 8395c337-637a-415a-571c-05d4 (STDOUT, CELL)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:31.244017] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:31.255143] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"8395c337-637a-415a-571c-05d4", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1781349271222226393, "version"=>"004f15e3-ceac-4afc-8cbb-90e14b529780"} (STDOUT, API)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:31.360212] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 87e4e52d-b66d-4a9c-62c9-4269 (STDOUT, CELL)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:31.413586] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:32.201805] Security group rules were updated (STDOUT, CELL)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:32.295989] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 87e4e52d-b66d-4a9c-62c9-4269 (STDOUT, CELL)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:33.158910] Downloading droplet... (STDOUT, CELL)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:33.727621] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 8395c337-637a-415a-571c-05d4 (STDOUT, CELL)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:34.934919] Downloaded droplet (STDOUT, CELL)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:34.935047] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:35.064283] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:35.272376] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:35.708821] > product@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:35.708857] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:35.714618] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 13 11:14:40.972#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32113#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:35.781035] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 13 11:14:50.976#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32119#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:41.822967] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 87e4e52d-b66d-4a9c-62c9-4269 (STDOUT, CELL)#
+#2026 06 13 11:14:50.976#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32119#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:41.823003] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 87e4e52d-b66d-4a9c-62c9-4269 (STDOUT, CELL)#
+#2026 06 13 11:14:50.976#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32119#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:41.840904] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 13 11:14:50.976#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32119#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:41.852987] App instance exited with guid f2e4391e-1a11-4871-b81d-2a7beb4c2d45 payload: {"instance"=>"87e4e52d-b66d-4a9c-62c9-4269", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1781349281818083984, "version"=>"004f15e3-ceac-4afc-8cbb-90e14b529780"} (STDOUT, API)#
+#2026 06 13 11:14:50.976#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32119#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:41.977345] Exit status 137 (STDOUT, PROXY)#
+#2026 06 13 11:14:50.976#Z#DEBUG#71f407ca-6718-11f1-9415-eeee0a882989.product-srv#flowable-async-job-executor-thread-32119#
+[PollStartAppStatusExecution] f2e4391e-1a11-4871-b81d-2a7beb4c2d45 [2026-06-13T11:14:44.392648] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 87e4e52d-b66d-4a9c-62c9-4269 (STDOUT, CELL)#

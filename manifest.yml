@@ -1,0 +1,11 @@
+applications:
+  - name: gem-sap-cap-app
+    path: .
+    buildpacks:
+      - nodejs_buildpack
+    memory: 512M
+    disk_quota: 1G
+    command: npm start
+    services:
+      - gem-hana-db          # Aquí irá tu base de datos HANA
+      - gem-xsuaa-service    # Aquí irá tu seguridad

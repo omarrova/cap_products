@@ -1,0 +1,3067 @@
+#2026 06 13 13:01:14.007#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Operation ID: f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38#
+#2026 06 13 13:01:14.035#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Process environment: {
+  "SKIP_SSL_VALIDATION" : "false",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "32",
+  "VERSION" : "2.47.0",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "16",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "8"
+}#
+#2026 06 13 13:01:14.035#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Current user: omar.rovai.v@gmail.com#
+#2026 06 13 13:01:14.035#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Client space: dev#
+#2026 06 13 13:01:14.035#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Client organization: 3d03b37atrial#
+#2026 06 13 13:01:14.035#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Process variables: {
+  "keepFiles" : false,
+  "skipAppDigestCalculation" : false,
+  "abortOnError" : false,
+  "mtaId" : "product",
+  "noFailOnMissingPermissions" : false,
+  "isSecurityEnabled" : false,
+  "apiRequestPath" : "https://deploy-service.cf.us10-001.hana.ondemand.com/api/v1/spaces/11237e83-adc3-449e-aaf0-9776a06dc850/operations",
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "21db6f9a-a05c-4e2b-abc2-2509cffe0a74",
+  "isDisposableUserProvidedServiceEnabled" : false,
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "noStart" : false,
+  "deleteServices" : false
+}#
+#2026 06 13 13:01:14.104#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14452#
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:14.104#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14452#
+[ValidateDeployParametersStep] Validating parameters...#
+#2026 06 13 13:01:14.108#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14452#
+[ValidateDeployParametersStep] Size of mtars is 13,410,681 and size of extension descriptors is 0#
+#2026 06 13 13:01:14.145#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14452#
+[ValidateDeployParametersStep] Archive was not split! Total size in bytes: 13,410,681#
+#2026 06 13 13:01:14.145#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14452#
+[ValidateDeployParametersStep] Deploying in org "3d03b37atrial" and space "dev"#
+#2026 06 13 13:01:14.154#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14452#
+[ValidateDeployParametersStep] Parameters validated#
+#2026 06 13 13:01:14.154#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14452#
+Step "Validate Parameters" finished#
+#2026 06 13 13:01:14.197#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:14.198#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+Step "Delete Remaining File Parts" finished#
+#2026 06 13 13:01:14.242#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:14.244#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+#2026 06 13 13:01:14.244#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[XS2ProcessMtaArchiveStep] MTA Archive ID: 21db6f9a-a05c-4e2b-abc2-2509cffe0a74#
+#2026 06 13 13:01:14.488#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[XS2ProcessMtaArchiveStep] MTA Descriptor length: 1,107#
+#2026 06 13 13:01:14.488#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [product-db-deployer, product-srv]#
+#2026 06 13 13:01:14.488#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+#2026 06 13 13:01:14.488#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: [gem-xsuaa-service]#
+#2026 06 13 13:01:14.501#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+#2026 06 13 13:01:14.501#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+Step "Process Archive" finished#
+#2026 06 13 13:01:14.554#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:14.556#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+#2026 06 13 13:01:14.556#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[ProcessMtaExtensionDescriptorsStep] Provided extension descriptors: [ ]#
+#2026 06 13 13:01:14.556#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[ProcessMtaExtensionDescriptorsStep] No extension descriptors in use#
+#2026 06 13 13:01:14.556#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+#2026 06 13 13:01:14.556#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+Step "Process Extension Descriptors" finished#
+#2026 06 13 13:01:14.604#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14456#
+[XS2DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:14.605#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14456#
+[XS2DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+#2026 06 13 13:01:14.608#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14456#
+[XS2DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+#2026 06 13 13:01:14.620#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14456#
+Step "Detect Schema Version" finished#
+#2026 06 13 13:01:14.670#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14457#
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:14.671#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14457#
+[MergeDescriptorsStep] Validating and merging descriptors...#
+#2026 06 13 13:01:14.673#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14457#
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "product",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "product-srv",
+    "type" : "javascript.nodejs",
+    "path" : "product-srv",
+    "properties" : { },
+    "parameters" : {
+      "buildpack" : "nodejs_buildpack",
+      "instances" : 1
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-hana-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-xsuaa-service",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "product-destination",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "product-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "product-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "memory" : "256M",
+      "buildpack" : "nodejs_buildpack",
+      "no-route" : true,
+      "dependency-type" : "hard",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-hana-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "product-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-hana-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "type" : "managed-service",
+      "service" : "hana",
+      "service-plan" : "hdi-shared"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-xsuaa-service",
+    "type" : "com.sap.xs.uaa",
+    "properties" : { },
+    "parameters" : {
+      "path" : "./xs-security.json",
+      "service-plan" : "application",
+      "type" : "managed-service",
+      "service" : "xsuaa"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-destination",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "type" : "managed-service",
+      "service" : "destination",
+      "service-plan" : "lite"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "enable-parallel-deployments" : true
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 06 13 13:01:14.675#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14457#
+[MergeDescriptorsStep] Descriptors validated and merged#
+#2026 06 13 13:01:14.675#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14457#
+Step "Merge Descriptors" finished#
+#2026 06 13 13:01:14.724#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:14.725#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+#2026 06 13 13:01:14.786#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Detecting MTA by id product and namespace null#
+#2026 06 13 13:01:14.786#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=f5bf48aa40cad7891eb709fcf1fde128,!mta_namespace"...#
+#2026 06 13 13:01:14.847#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=f5bf48aa40cad7891eb709fcf1fde128,!mta_namespace"...#
+#2026 06 13 13:01:14.990#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Deployed MTA: {
+  "metadata" : {
+    "id" : "product",
+    "version" : "1.0.0"
+  },
+  "applications" : [ ],
+  "services" : [ {
+    "name" : "product-destination",
+    "metadata" : {
+      "guid" : "36d14037-b635-4bfa-b590-ddaf596cb145",
+      "createdAt" : [ 2026, 6, 13, 11, 10, 12 ],
+      "updatedAt" : [ 2026, 6, 13, 11, 10, 13 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "product",
+        "mta_version" : "1.0.0",
+        "mta_resource" : "{\"name\":\"product-destination\"}"
+      },
+      "labels" : {
+        "mta_id" : "f5bf48aa40cad7891eb709fcf1fde128"
+      }
+    },
+    "label" : "destination",
+    "plan" : "lite",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "CREATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "product-destination"
+  }, {
+    "name" : "gem-xsuaa-service",
+    "metadata" : {
+      "guid" : "ce96b5fb-dd20-4eb7-8c69-19d362c4f8bb",
+      "createdAt" : [ 2026, 6, 13, 12, 34, 57 ],
+      "updatedAt" : [ 2026, 6, 13, 12, 34, 58 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "product",
+        "mta_version" : "1.0.0",
+        "mta_resource" : "{\"name\":\"gem-xsuaa-service\"}"
+      },
+      "labels" : {
+        "mta_id" : "f5bf48aa40cad7891eb709fcf1fde128"
+      }
+    },
+    "label" : "xsuaa",
+    "plan" : "application",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "UPDATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "gem-xsuaa-service"
+  } ]
+}#
+#2026 06 13 13:01:14.990#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Detected deployed MTA with ID "product" and version "1.0.0"#
+#2026 06 13 13:01:14.997#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Detecting backup mta by id "product" and namespace "null"#
+#2026 06 13 13:01:14.997#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=f5bf48aa40cad7891eb709fcf1fde128,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 06 13 13:01:15.037#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=f5bf48aa40cad7891eb709fcf1fde128,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 06 13 13:01:15.109#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+[DetectDeployedMtaStep] Deployed MTA service keys: [ ]#
+#2026 06 13 13:01:15.109#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14458#
+Step "Detect Deployed MTA" finished#
+#2026 06 13 13:01:15.158#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:15.160#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] Collecting system parameters...#
+#2026 06 13 13:01:15.162#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] Getting default domain...#
+#2026 06 13 13:01:15.187#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] Default domain: cfapps.us10-001.hana.ondemand.com#
+#2026 06 13 13:01:15.187#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "product"#
+#2026 06 13 13:01:15.187#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] No read-only parameters are overwritten#
+#2026 06 13 13:01:15.200#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "product",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "product-srv",
+    "type" : "javascript.nodejs",
+    "path" : "product-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "product-srv",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "default-live-host" : "3d03b37atrial-dev-product-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "3d03b37atrial-dev-product-srv",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "3d03b37atrial-dev-product-srv.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "product-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-hana-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-xsuaa-service",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "product-destination",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "product-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "product-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "product-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "3d03b37atrial-dev-product-db-deployer",
+      "instances" : "${default-instances}",
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "3d03b37atrial-dev-product-db-deployer",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "3d03b37atrial-dev-product-db-deployer.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "product-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-hana-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "product-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-hana-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "gem-hana-db",
+      "type" : "managed-service",
+      "default-service-name" : "gem-hana-db",
+      "default-container-name" : "3D03B37ATRIAL_DEV_GEM_HANA_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-xsuaa-service",
+    "type" : "com.sap.xs.uaa",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "gem-xsuaa-service",
+      "type" : "managed-service",
+      "default-service-name" : "gem-xsuaa-service",
+      "default-container-name" : "3D03B37ATRIAL_DEV_GEM_XSUAA_SERVICE"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-destination",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "lite",
+      "service" : "destination",
+      "generated-user" : "********",
+      "default-xsappname" : "product-destination",
+      "type" : "managed-service",
+      "default-service-name" : "product-destination",
+      "default-container-name" : "3D03B37ATRIAL_DEV_PRODUCT_DESTINATION"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "product",
+    "authorization-url" : "********",
+    "org-guid" : "c57668fe-ec3e-41d9-9053-a4e877913314",
+    "org" : "3d03b37atrial",
+    "deploy-target" : "3d03b37atrial dev",
+    "enable-parallel-deployments" : true,
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "11237e83-adc3-449e-aaf0-9776a06dc850",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260613130114"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 06 13 13:01:15.202#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] Version rule: SAME_HIGHER#
+#2026 06 13 13:01:15.202#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] Detected new MTA version: "1.0.0"#
+#2026 06 13 13:01:15.209#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] Deployed MTA version: "1.0.0"#
+#2026 06 13 13:01:15.215#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] MTA accepted for deployment#
+#2026 06 13 13:01:15.215#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2CollectSystemParametersStep] System parameters collected#
+#2026 06 13 13:01:15.215#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+Step "Collect System Parameters" finished#
+#2026 06 13 13:01:15.262#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[ProcessDescriptorStep] Executing task "processDescriptorTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:15.264#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 06 13 13:01:15.268#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 06 13 13:01:15.268#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[ProcessDescriptorStep] MTA modules: [product-db-deployer, product-srv]#
+#2026 06 13 13:01:15.269#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "product",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "product-srv",
+    "type" : "javascript.nodejs",
+    "path" : "product-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "product-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "3d03b37atrial-dev-product-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "3d03b37atrial-dev-product-srv",
+      "app-name" : "product-srv",
+      "default-live-uri" : "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "product-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "3d03b37atrial-dev-product-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-hana-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-xsuaa-service",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "product-destination",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "product-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "product-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "product-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "3d03b37atrial-dev-product-db-deployer",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "3d03b37atrial-dev-product-db-deployer",
+      "app-name" : "product-db-deployer",
+      "default-live-uri" : "3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "product-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "3d03b37atrial-dev-product-db-deployer",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-hana-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "product-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-hana-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "gem-hana-db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "gem-hana-db",
+      "type" : "managed-service",
+      "default-service-name" : "gem-hana-db",
+      "default-container-name" : "3D03B37ATRIAL_DEV_GEM_HANA_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-xsuaa-service",
+    "type" : "com.sap.xs.uaa",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "gem-xsuaa-service",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "gem-xsuaa-service",
+      "type" : "managed-service",
+      "default-service-name" : "gem-xsuaa-service",
+      "default-container-name" : "3D03B37ATRIAL_DEV_GEM_XSUAA_SERVICE"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-destination",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "product-destination",
+      "service-plan" : "lite",
+      "service" : "destination",
+      "generated-user" : "********",
+      "default-xsappname" : "product-destination",
+      "type" : "managed-service",
+      "default-service-name" : "product-destination",
+      "default-container-name" : "3D03B37ATRIAL_DEV_PRODUCT_DESTINATION"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "product",
+    "authorization-url" : "********",
+    "org-guid" : "c57668fe-ec3e-41d9-9053-a4e877913314",
+    "org" : "3d03b37atrial",
+    "deploy-target" : "3d03b37atrial dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "11237e83-adc3-449e-aaf0-9776a06dc850",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260613130114"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 06 13 13:01:15.269#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 06 13 13:01:15.269#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+Step "Process Descriptor Step" finished#
+#2026 06 13 13:01:15.316#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:15.320#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] Service keys defined for content deployment grouped by service name: { }#
+#2026 06 13 13:01:15.321#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+#2026 06 13 13:01:15.323#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] MTA archive modules: [product-db-deployer, product-srv]#
+#2026 06 13 13:01:15.323#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] Deployed modules: []#
+#2026 06 13 13:01:15.325#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] MTA modules: [product-db-deployer, product-srv]#
+#2026 06 13 13:01:15.325#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] Service keys to create: {
+  "gem-xsuaa-service" : [ ],
+  "gem-hana-db" : [ ],
+  "product-destination" : [ ]
+}#
+#2026 06 13 13:01:15.325#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] Modules to deploy: [{
+  "majorSchemaVersion" : 3,
+  "name" : "product-srv",
+  "type" : "javascript.nodejs",
+  "path" : "product-srv",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "product-srv",
+    "generated-password" : "********",
+    "default-live-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-instances" : 1,
+    "default-live-host" : "3d03b37atrial-dev-product-srv",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "3d03b37atrial-dev-product-srv",
+    "app-name" : "product-srv",
+    "default-live-uri" : "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "product-srv",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "3d03b37atrial-dev-product-srv",
+    "generated-user" : "********"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-hana-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-xsuaa-service",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-destination",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "product-db-deployer",
+  "type" : "com.sap.xs.hdi",
+  "path" : "product-db-deployer",
+  "properties" : {
+    "EXIT" : 1
+  },
+  "parameters" : {
+    "default-url" : "https://3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "product-db-deployer",
+    "generated-password" : "********",
+    "default-live-url" : "https://3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "memory" : "256M",
+    "default-instances" : 1,
+    "no-route" : true,
+    "default-live-host" : "3d03b37atrial-dev-product-db-deployer",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "3d03b37atrial-dev-product-db-deployer",
+    "app-name" : "product-db-deployer",
+    "default-live-uri" : "3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "product-db-deployer",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "hard",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "3d03b37atrial-dev-product-db-deployer",
+    "generated-user" : "********",
+    "tasks" : [ {
+      "command" : "npm start",
+      "memory" : "256M",
+      "name" : "deploy"
+    } ],
+    "no-start" : true
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-hana-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "product-db-deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}]#
+#2026 06 13 13:01:15.326#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+#2026 06 13 13:01:15.328#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] Calculating resource batches...#
+#2026 06 13 13:01:15.328#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] Calculating resource batches completed.#
+#2026 06 13 13:01:15.328#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+#2026 06 13 13:01:15.328#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+Step "Build Deploy Model" finished#
+#2026 06 13 13:01:15.382#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:15.384#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+#2026 06 13 13:01:15.386#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] Detecting service keys to delete.#
+#2026 06 13 13:01:15.388#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] No deployed service keys detected!#
+#2026 06 13 13:01:15.388#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] Detected service keys to delete "[]"#
+#2026 06 13 13:01:15.396#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] MTA modules: [product-db-deployer, product-srv]#
+#2026 06 13 13:01:15.396#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] Modules to undeploy: [ ]#
+#2026 06 13 13:01:15.396#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] Modules that won't be changed: [ ]#
+#2026 06 13 13:01:15.397#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] Subscriptions to delete: [ ]#
+#2026 06 13 13:01:15.399#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] Cloud services to delete: []#
+#2026 06 13 13:01:15.399#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] Cloud applications to undeploy: [ ]#
+#2026 06 13 13:01:15.404#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[BuildCloudUndeployModelStep] Cloud undeployment model built#
+#2026 06 13 13:01:15.404#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+Step "Build Undeploy Model" finished#
+#2026 06 13 13:01:15.452#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[AddDomainsStep] Executing task "addDomainsTask" of process "f52edb32-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:15.455#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+[AddDomainsStep] Custom domains: []#
+#2026 06 13 13:01:15.455#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14454#
+Step "Add Domains" finished#
+#2026 06 13 13:01:15.624#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14457#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Executing task "prepareModulesDeploymentTask" of process "f619d77e-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:15.625#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14457#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Extracting services and resolving dynamic parameters from batch#
+#2026 06 13 13:01:15.627#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14457#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Services to create: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "gem-hana-db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "product",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"gem-hana-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "f5bf48aa40cad7891eb709fcf1fde128"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "gem-hana-db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "gem-xsuaa-service",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "product",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"gem-xsuaa-service\"}"
+    },
+    "labels" : {
+      "mta_id" : "f5bf48aa40cad7891eb709fcf1fde128"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "gem-xsuaa-service",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "product-destination",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "product",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"product-destination\"}"
+    },
+    "labels" : {
+      "mta_id" : "f5bf48aa40cad7891eb709fcf1fde128"
+    }
+  },
+  "label" : "destination",
+  "plan" : "lite",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "product-destination",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+#2026 06 13 13:01:15.629#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14457#
+Step "Extract Services with Resolved Dynamic parameters from batch" finished#
+#2026 06 13 13:01:15.750#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "f6313051-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:15.752#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+[CheckServiceOperationStateStep] Getting service instance "gem-xsuaa-service"...#
+#2026 06 13 13:01:15.882#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14459#
+Step "Check for service operations in Progress" finished#
+#2026 06 13 13:01:15.940#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13721#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "f64f17d2-6727-11f1-b991-eeee0a8b857e"...#
+#2026 06 13 13:01:16.003#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13721#
+[CheckServiceOperationStateStep] Getting service instance "gem-hana-db"...#
+#2026 06 13 13:01:16.038#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13721#
+Step "Check for service operations in Progress" finished#
+#2026 06 13 13:01:15.926#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "f6313051-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:15.928#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "gem-xsuaa-service"...#
+#2026 06 13 13:01:15.935#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "gem-xsuaa-service"...#
+#2026 06 13 13:01:16.060#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[DetermineServiceCreateUpdateServiceActionsStep] Setting service "gem-xsuaa-service" parameters from "xs-security.json"#
+#2026 06 13 13:01:16.104#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "gem-xsuaa-service",
+  "metadata" : {
+    "guid" : "ce96b5fb-dd20-4eb7-8c69-19d362c4f8bb",
+    "createdAt" : [ 2026, 6, 13, 12, 34, 57 ],
+    "updatedAt" : [ 2026, 6, 13, 12, 34, 58 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "product",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"gem-xsuaa-service\"}"
+    },
+    "labels" : {
+      "mta_id" : "f5bf48aa40cad7891eb709fcf1fde128"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "UPDATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+#2026 06 13 13:01:16.104#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters will be updated#
+#2026 06 13 13:01:16.104#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[DetermineServiceCreateUpdateServiceActionsStep] New parameters: {
+  "tenant-mode" : "dedicated",
+  "xsappname" : "gem-sap-cap-app"
+}#
+#2026 06 13 13:01:16.104#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+Step "Determine update actions" finished#
+#2026 06 13 13:01:16.069#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13722#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "f64f17d2-6727-11f1-b991-eeee0a8b857e"...#
+#2026 06 13 13:01:16.071#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13722#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "gem-hana-db"...#
+#2026 06 13 13:01:16.078#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13722#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "gem-hana-db"...#
+#2026 06 13 13:01:16.111#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13722#
+[DetermineServiceCreateUpdateServiceActionsStep] Service should be created#
+#2026 06 13 13:01:16.114#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13722#
+Step "Determine update actions" finished#
+#2026 06 13 13:01:16.168#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+[CheckForServiceBindingOrKeyOperationStep] Executing task "CheckForServiceBindingOrKeyCreation" of process "f6313051-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:16.171#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14455#
+Step "Check for service binding or key creation" finished#
+#2026 06 13 13:01:16.224#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14456#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "f6313051-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:16.229#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14456#
+[UpdateServiceParametersStep] Updating service "gem-xsuaa-service"...#
+#2026 06 13 13:01:16.235#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14456#
+[UpdateServiceParametersStep] Updating service parameters for service "gem-xsuaa-service"...#
+#2026 06 13 13:01:16.327#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14456#
+[UpdateServiceParametersStep] Service "gem-xsuaa-service" updated#
+#2026 06 13 13:01:16.327#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14456#
+[UpdateServiceParametersStep] Triggered service operations: {
+  "gem-xsuaa-service" : "UPDATE"
+}#
+#2026 06 13 13:01:16.330#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14456#
+Step "Update parameters" finished#
+#2026 06 13 13:01:16.158#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13723#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f64f17d2-6727-11f1-b991-eeee0a8b857e"...#
+#2026 06 13 13:01:16.161#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13723#
+[CreateServiceStep] Creating service "gem-hana-db" from MTA resource "gem-hana-db"...#
+#2026 06 13 13:01:16.166#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13723#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "gem-hana-db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "product",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"gem-hana-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "f5bf48aa40cad7891eb709fcf1fde128"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "gem-hana-db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2026 06 13 13:01:16.406#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13723#
+[CreateServiceStep] Service "gem-hana-db" created#
+#2026 06 13 13:01:16.406#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13723#
+[CreateServiceStep] Triggered service operations: {
+  "gem-hana-db" : "CREATE"
+}#
+#2026 06 13 13:01:16.408#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13723#
+Step "Create" finished#
+#2026 06 13 13:01:16.764#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "f6ca897a-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:16.766#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+[CheckServiceOperationStateStep] Getting service instance "product-destination"...#
+#2026 06 13 13:01:16.906#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+Step "Check for service operations in Progress" finished#
+#2026 06 13 13:01:16.947#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "f6ca897a-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:16.950#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "product-destination"...#
+#2026 06 13 13:01:16.956#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "product-destination"...#
+#2026 06 13 13:01:17.095#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "product-destination",
+  "metadata" : {
+    "guid" : "36d14037-b635-4bfa-b590-ddaf596cb145",
+    "createdAt" : [ 2026, 6, 13, 11, 10, 12 ],
+    "updatedAt" : [ 2026, 6, 13, 11, 10, 13 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "product",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"product-destination\"}"
+    },
+    "labels" : {
+      "mta_id" : "f5bf48aa40cad7891eb709fcf1fde128"
+    }
+  },
+  "label" : "destination",
+  "plan" : "lite",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "CREATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+#2026 06 13 13:01:17.095#Z#WARN#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters for service "product-destination" will not be updated, as the parameters are not defined or empty.#
+#2026 06 13 13:01:17.095#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+Step "Determine update actions" finished#
+#2026 06 13 13:01:17.163#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+[CheckForServiceBindingOrKeyOperationStep] Executing task "CheckForServiceBindingOrKeyCreation" of process "f6ca897a-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:17.166#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14453#
+Step "Check for service binding or key creation" finished#
+#2026 06 13 13:01:25.186#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35258#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "f6313051-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:25.187#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35258#
+[UpdateServiceParametersStep] Polling service operations...#
+#2026 06 13 13:01:25.189#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35258#
+[UpdateServiceParametersStep] Getting service instance "gem-xsuaa-service"...#
+#2026 06 13 13:01:25.304#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35258#
+[UpdateServiceParametersStep] Last operation for service "gem-xsuaa-service": {
+  "type" : "UPDATE",
+  "description" : "",
+  "state" : "SUCCEEDED"
+}#
+#2026 06 13 13:01:25.304#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35258#
+[UpdateServiceParametersStep] Service "gem-xsuaa-service" updated#
+#2026 06 13 13:01:25.304#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35258#
+[UpdateServiceParametersStep] 1 of 1 done#
+#2026 06 13 13:01:25.308#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35258#
+[UpdateServiceParametersStep] Remaining services to poll: [ ]#
+#2026 06 13 13:01:25.309#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35258#
+Step "Update parameters" finished#
+#2026 06 13 13:01:25.188#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35259#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f64f17d2-6727-11f1-b991-eeee0a8b857e"...#
+#2026 06 13 13:01:25.188#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35259#
+[CreateServiceStep] Polling service operations...#
+#2026 06 13 13:01:25.190#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35259#
+[CreateServiceStep] Getting service instance "gem-hana-db"...#
+#2026 06 13 13:01:25.336#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35259#
+[CreateServiceStep] Last operation for service "gem-hana-db": {
+  "type" : "CREATE",
+  "state" : "SUCCEEDED"
+}#
+#2026 06 13 13:01:25.336#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35259#
+[CreateServiceStep] Service "gem-hana-db" created#
+#2026 06 13 13:01:25.337#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35259#
+[CreateServiceStep] 1 of 1 done#
+#2026 06 13 13:01:25.341#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35259#
+[CreateServiceStep] Remaining services to poll: [ ]#
+#2026 06 13 13:01:25.342#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35259#
+Step "Create" finished#
+#2026 06 13 13:01:26.029#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14462#
+[PrepareModulesDeploymentStep] Executing task "prepareModulesDeploymentTask" of process "fc48a2ac-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:26.031#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14462#
+[PrepareModulesDeploymentStep] Preparing modules deployment...#
+#2026 06 13 13:01:26.038#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14462#
+Step "Prepare Modules Deployment" finished#
+#2026 06 13 13:01:26.097#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14463#
+[ComputeNextModulesStep] Executing task "computeNextModulesToDeployInParallel" of process "fc48a2ac-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:26.099#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14463#
+[ComputeNextModulesStep] Computing modules for next parallel iteration...#
+#2026 06 13 13:01:26.102#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14463#
+[ComputeNextModulesStep] Completed modules detected: []#
+#2026 06 13 13:01:26.102#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14463#
+[ComputeNextModulesStep] All modules for deploy detected: [product-db-deployer, product-srv]#
+#2026 06 13 13:01:26.102#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14463#
+[ComputeNextModulesStep] Modules not for deploy detected: []#
+#2026 06 13 13:01:26.102#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14463#
+[ComputeNextModulesStep] Computed modules for next parallel iteration: [ {
+  "majorSchemaVersion" : 3,
+  "name" : "product-srv",
+  "type" : "javascript.nodejs",
+  "path" : "product-srv",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "product-srv",
+    "buildpack" : "nodejs_buildpack",
+    "default-app-name" : "product-srv",
+    "default-host" : "3d03b37atrial-dev-product-srv",
+    "default-instances" : 1,
+    "default-live-app-name" : "product-srv",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "default-live-host" : "3d03b37atrial-dev-product-srv",
+    "default-live-uri" : "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-live-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "3d03b37atrial-dev-product-srv",
+    "instances" : 1,
+    "protocol" : "https"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-hana-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-xsuaa-service",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-destination",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "product-db-deployer",
+  "type" : "com.sap.xs.hdi",
+  "path" : "product-db-deployer",
+  "properties" : {
+    "EXIT" : 1
+  },
+  "parameters" : {
+    "app-name" : "product-db-deployer",
+    "buildpack" : "nodejs_buildpack",
+    "default-app-name" : "product-db-deployer",
+    "default-host" : "3d03b37atrial-dev-product-db-deployer",
+    "default-instances" : 1,
+    "default-live-app-name" : "product-db-deployer",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "default-live-host" : "3d03b37atrial-dev-product-db-deployer",
+    "default-live-uri" : "3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-live-url" : "https://3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-url" : "https://3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "hard",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "3d03b37atrial-dev-product-db-deployer",
+    "instances" : 1,
+    "memory" : "256M",
+    "no-route" : true,
+    "no-start" : true,
+    "protocol" : "https",
+    "tasks" : [ {
+      "command" : "npm start",
+      "memory" : "256M",
+      "name" : "deploy"
+    } ]
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-hana-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "product-db-deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+} ]#
+#2026 06 13 13:01:26.102#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14463#
+Step "Compute Next Modules To Deploy" finished#
+#2026 06 13 13:01:26.303#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14466#
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "fc74e391-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:26.305#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14466#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 06 13 13:01:26.309#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14466#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 06 13 13:01:26.318#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14466#
+[ProcessDescriptorStep] MTA modules: [product-db-deployer, product-srv]#
+#2026 06 13 13:01:26.322#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14466#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "product",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "product-srv",
+    "type" : "javascript.nodejs",
+    "path" : "product-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "product-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "3d03b37atrial-dev-product-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "3d03b37atrial-dev-product-srv",
+      "app-name" : "product-srv",
+      "default-live-uri" : "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "product-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "3d03b37atrial-dev-product-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-hana-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-xsuaa-service",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "product-destination",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "product-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "product-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "product-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "3d03b37atrial-dev-product-db-deployer",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "3d03b37atrial-dev-product-db-deployer",
+      "app-name" : "product-db-deployer",
+      "default-live-uri" : "3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "product-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "3d03b37atrial-dev-product-db-deployer",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-hana-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "product-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-hana-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "gem-hana-db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "gem-hana-db",
+      "type" : "managed-service",
+      "default-service-name" : "gem-hana-db",
+      "default-container-name" : "3D03B37ATRIAL_DEV_GEM_HANA_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-xsuaa-service",
+    "type" : "com.sap.xs.uaa",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "gem-xsuaa-service",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "gem-xsuaa-service",
+      "type" : "managed-service",
+      "default-service-name" : "gem-xsuaa-service",
+      "default-container-name" : "3D03B37ATRIAL_DEV_GEM_XSUAA_SERVICE"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-destination",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "product-destination",
+      "service-plan" : "lite",
+      "service" : "destination",
+      "generated-user" : "********",
+      "default-xsappname" : "product-destination",
+      "type" : "managed-service",
+      "default-service-name" : "product-destination",
+      "default-container-name" : "3D03B37ATRIAL_DEV_PRODUCT_DESTINATION"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "product",
+    "authorization-url" : "********",
+    "org-guid" : "c57668fe-ec3e-41d9-9053-a4e877913314",
+    "org" : "3d03b37atrial",
+    "deploy-target" : "3d03b37atrial dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "11237e83-adc3-449e-aaf0-9776a06dc850",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260613130114"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 06 13 13:01:26.322#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14466#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 06 13 13:01:26.322#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14466#
+Step "Re-Process Descriptor Step" finished#
+#2026 06 13 13:01:26.366#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "fc74e391-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:26.370#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "product-db-deployer"...#
+#2026 06 13 13:01:26.377#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+#2026 06 13 13:01:26.378#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[BuildApplicationDeployModelStep] Building configuration entries for org 3d03b37atrial, space dev, spaceId 11237e83-adc3-449e-aaf0-9776a06dc850 and namespace null!#
+#2026 06 13 13:01:26.379#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+#2026 06 13 13:01:26.379#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+#2026 06 13 13:01:26.379#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+Step "Build Application Deploy Model" finished#
+#2026 06 13 13:01:26.433#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "fc74e391-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:26.436#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[CreateOrUpdateAppStep] Getting application "product-db-deployer"...#
+#2026 06 13 13:01:26.475#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[CreateOrUpdateAppStep] Creating application "product-db-deployer" from MTA module "product-db-deployer"...#
+#2026 06 13 13:01:26.485#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[CreateOrUpdateAppStep] Creating application "product-db-deployer" with disk "null" memory "256", URIs "" and staging: "{
+  "buildpacks" : [ "nodejs_buildpack" ],
+  "healthCheckType" : "port",
+  "appFeatures" : { }
+}"#
+#2026 06 13 13:01:26.723#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[CreateOrUpdateAppStep] Application "product-db-deployer" created#
+#2026 06 13 13:01:26.723#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+Step "Create App" finished#
+#2026 06 13 13:01:26.856#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "fccf5eef-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:26.856#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "product-db-deployer" and service instance "gem-hana-db"#
+#2026 06 13 13:01:26.857#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[CheckServiceBindingOperationStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:01:26.897#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "gem-hana-db"...#
+#2026 06 13 13:01:26.926#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[CheckServiceBindingOperationStep] Getting binding of service instance "5a8d1fd1-8655-4877-80b1-7e6c73df3a15" with application "959766ac-bf0f-4e65-8f01-98c8b7fa36c0"...#
+#2026 06 13 13:01:26.955#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 06 13 13:01:27.000#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "fccf5eef-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:27.003#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "product-db-deployer" to service instance "gem-hana-db"#
+#2026 06 13 13:01:27.003#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[DetermineApplicationServiceBindingActionsStep] Getting application "product-db-deployer"...#
+#2026 06 13 13:01:27.054#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "product-db-deployer": { }#
+#2026 06 13 13:01:27.076#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "product-db-deployer" and service instance "gem-hana-db": unbind - false bind - true#
+#2026 06 13 13:01:27.076#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+Step "Determine Application Service Binding Actions" finished#
+#2026 06 13 13:01:27.130#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "fccf5eef-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:27.133#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[BindServiceToApplicationStep] Binding service instance "gem-hana-db" to application "product-db-deployer"...#
+#2026 06 13 13:01:27.142#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+[BindServiceToApplicationStep] Binding service instance "gem-hana-db" to application "product-db-deployer" with parameters: { }#
+#2026 06 13 13:01:27.267#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14467#
+Step "Bind Service to Application" finished#
+#2026 06 13 13:01:27.763#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "fd557f54-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:27.764#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 06 13 13:01:27.768#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 06 13 13:01:27.774#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[ProcessDescriptorStep] MTA modules: [product-db-deployer, product-srv]#
+#2026 06 13 13:01:27.776#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "product",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "product-srv",
+    "type" : "javascript.nodejs",
+    "path" : "product-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "product-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "3d03b37atrial-dev-product-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "3d03b37atrial-dev-product-srv",
+      "app-name" : "product-srv",
+      "default-live-uri" : "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "product-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "3d03b37atrial-dev-product-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-hana-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-xsuaa-service",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "product-destination",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "product-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "product-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "product-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "3d03b37atrial-dev-product-db-deployer",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "3d03b37atrial-dev-product-db-deployer",
+      "app-name" : "product-db-deployer",
+      "default-live-uri" : "3d03b37atrial-dev-product-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "product-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "3d03b37atrial-dev-product-db-deployer",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gem-hana-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "product-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-hana-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "gem-hana-db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "gem-hana-db",
+      "type" : "managed-service",
+      "default-service-name" : "gem-hana-db",
+      "default-container-name" : "3D03B37ATRIAL_DEV_GEM_HANA_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gem-xsuaa-service",
+    "type" : "com.sap.xs.uaa",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "gem-xsuaa-service",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "gem-xsuaa-service",
+      "type" : "managed-service",
+      "default-service-name" : "gem-xsuaa-service",
+      "default-container-name" : "3D03B37ATRIAL_DEV_GEM_XSUAA_SERVICE"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "product-destination",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "product-destination",
+      "service-plan" : "lite",
+      "service" : "destination",
+      "generated-user" : "********",
+      "default-xsappname" : "product-destination",
+      "type" : "managed-service",
+      "default-service-name" : "product-destination",
+      "default-container-name" : "3D03B37ATRIAL_DEV_PRODUCT_DESTINATION"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "product",
+    "authorization-url" : "********",
+    "org-guid" : "c57668fe-ec3e-41d9-9053-a4e877913314",
+    "org" : "3d03b37atrial",
+    "deploy-target" : "3d03b37atrial dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "11237e83-adc3-449e-aaf0-9776a06dc850",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260613130114"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 06 13 13:01:27.776#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 06 13 13:01:27.776#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+Step "Re-Process Descriptor Step" finished#
+#2026 06 13 13:01:27.802#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "fd557f54-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:27.804#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "product-srv"...#
+#2026 06 13 13:01:27.808#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+#2026 06 13 13:01:27.809#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[BuildApplicationDeployModelStep] Building configuration entries for org 3d03b37atrial, space dev, spaceId 11237e83-adc3-449e-aaf0-9776a06dc850 and namespace null!#
+#2026 06 13 13:01:27.810#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+#2026 06 13 13:01:27.810#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+#2026 06 13 13:01:27.810#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+Step "Build Application Deploy Model" finished#
+#2026 06 13 13:01:27.845#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "fd557f54-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:27.846#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[CreateOrUpdateAppStep] Getting application "product-srv"...#
+#2026 06 13 13:01:27.909#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[CreateOrUpdateAppStep] Creating application "product-srv" from MTA module "product-srv"...#
+#2026 06 13 13:01:27.916#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[CreateOrUpdateAppStep] Creating application "product-srv" with disk "null" memory "null", URIs "3d03b37atrial-dev-product-srv.cfapps.us10-001.hana.ondemand.com" and staging: "{
+  "buildpacks" : [ "nodejs_buildpack" ],
+  "healthCheckType" : "port",
+  "appFeatures" : { }
+}"#
+#2026 06 13 13:01:28.316#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[CreateOrUpdateAppStep] Application "product-srv" created#
+#2026 06 13 13:01:28.317#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+Step "Create App" finished#
+#2026 06 13 13:01:28.403#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "fdbd8f4c-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:28.403#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "product-srv" and service instance "gem-hana-db"#
+#2026 06 13 13:01:28.404#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[CheckServiceBindingOperationStep] Getting application guid "product-srv"...#
+#2026 06 13 13:01:28.441#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "gem-hana-db"...#
+#2026 06 13 13:01:28.472#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[CheckServiceBindingOperationStep] Getting binding of service instance "5a8d1fd1-8655-4877-80b1-7e6c73df3a15" with application "84556bbe-1d34-4871-9c5c-d66f80cf69c4"...#
+#2026 06 13 13:01:28.497#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 06 13 13:01:28.522#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "fdbd8f4c-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:28.523#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "product-srv" to service instance "gem-hana-db"#
+#2026 06 13 13:01:28.523#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[DetermineApplicationServiceBindingActionsStep] Getting application "product-srv"...#
+#2026 06 13 13:01:28.570#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "product-srv": { }#
+#2026 06 13 13:01:28.603#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "product-srv" and service instance "gem-hana-db": unbind - false bind - true#
+#2026 06 13 13:01:28.603#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+Step "Determine Application Service Binding Actions" finished#
+#2026 06 13 13:01:28.632#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "fdbd8f4c-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:28.633#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[BindServiceToApplicationStep] Binding service instance "gem-hana-db" to application "product-srv"...#
+#2026 06 13 13:01:28.638#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+[BindServiceToApplicationStep] Binding service instance "gem-hana-db" to application "product-srv" with parameters: { }#
+#2026 06 13 13:01:28.762#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35254#
+Step "Bind Service to Application" finished#
+#2026 06 13 13:01:28.802#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "fdf6a123-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:28.802#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "product-srv" and service instance "gem-xsuaa-service"#
+#2026 06 13 13:01:28.803#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[CheckServiceBindingOperationStep] Getting application guid "product-srv"...#
+#2026 06 13 13:01:28.849#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "gem-xsuaa-service"...#
+#2026 06 13 13:01:28.877#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[CheckServiceBindingOperationStep] Getting binding of service instance "ce96b5fb-dd20-4eb7-8c69-19d362c4f8bb" with application "84556bbe-1d34-4871-9c5c-d66f80cf69c4"...#
+#2026 06 13 13:01:28.902#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 06 13 13:01:28.941#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "fdf6a123-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:28.944#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "product-srv" to service instance "gem-xsuaa-service"#
+#2026 06 13 13:01:28.944#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[DetermineApplicationServiceBindingActionsStep] Getting application "product-srv"...#
+#2026 06 13 13:01:28.995#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "product-srv": { }#
+#2026 06 13 13:01:29.033#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "product-srv" and service instance "gem-xsuaa-service": unbind - false bind - true#
+#2026 06 13 13:01:29.033#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+Step "Determine Application Service Binding Actions" finished#
+#2026 06 13 13:01:29.083#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "fdf6a123-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:29.086#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[BindServiceToApplicationStep] Binding service instance "gem-xsuaa-service" to application "product-srv"...#
+#2026 06 13 13:01:29.094#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+[BindServiceToApplicationStep] Binding service instance "gem-xsuaa-service" to application "product-srv" with parameters: { }#
+#2026 06 13 13:01:29.231#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-14465#
+Step "Bind Service to Application" finished#
+#2026 06 13 13:01:30.716#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35263#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "ff1e09f0-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:30.716#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35263#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "product-srv" and service instance "product-destination"#
+#2026 06 13 13:01:30.716#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35263#
+[CheckServiceBindingOperationStep] Getting application guid "product-srv"...#
+#2026 06 13 13:01:30.755#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35263#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "product-destination"...#
+#2026 06 13 13:01:30.796#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35263#
+[CheckServiceBindingOperationStep] Getting binding of service instance "36d14037-b635-4bfa-b590-ddaf596cb145" with application "84556bbe-1d34-4871-9c5c-d66f80cf69c4"...#
+#2026 06 13 13:01:30.822#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35263#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 06 13 13:01:30.848#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35264#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "ff1e09f0-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:30.849#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35264#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "product-srv" to service instance "product-destination"#
+#2026 06 13 13:01:30.849#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35264#
+[DetermineApplicationServiceBindingActionsStep] Getting application "product-srv"...#
+#2026 06 13 13:01:30.907#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35264#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "product-srv": { }#
+#2026 06 13 13:01:30.941#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35264#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "product-srv" and service instance "product-destination": unbind - false bind - true#
+#2026 06 13 13:01:30.941#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35264#
+Step "Determine Application Service Binding Actions" finished#
+#2026 06 13 13:01:30.975#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35265#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "ff1e09f0-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:30.976#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35265#
+[BindServiceToApplicationStep] Binding service instance "product-destination" to application "product-srv"...#
+#2026 06 13 13:01:30.981#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35265#
+[BindServiceToApplicationStep] Binding service instance "product-destination" to application "product-srv" with parameters: { }#
+#2026 06 13 13:01:31.103#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35265#
+Step "Bind Service to Application" finished#
+#2026 06 13 13:01:35.205#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35269#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "fdbd8f4c-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:35.206#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35269#
+[BindServiceToApplicationStep] Getting async job "588526fd-a91b-4e0d-a01d-10864df9e787"#
+#2026 06 13 13:01:35.211#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35267#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "fdf6a123-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:35.213#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35267#
+[BindServiceToApplicationStep] Getting async job "6c31f231-abea-45d0-a7e0-178b444f5b40"#
+#2026 06 13 13:01:35.218#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "fccf5eef-6727-11f1-bc0c-eeee0a9c2b38"...#
+#2026 06 13 13:01:35.219#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[BindServiceToApplicationStep] Getting async job "31893b1c-cb42-494d-b679-95b15a153e53"#
+#2026 06 13 13:01:35.238#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35267#
+[BindServiceToApplicationStep] Getting service instance "gem-xsuaa-service"...#
+#2026 06 13 13:01:35.240#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[BindServiceToApplicationStep] Getting service instance "gem-hana-db"...#
+#2026 06 13 13:01:35.249#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35269#
+[BindServiceToApplicationStep] Getting service instance "gem-hana-db"...#
+#2026 06 13 13:01:35.366#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[BindServiceToApplicationStep] Async service binding operation with id "31893b1c-cb42-494d-b679-95b15a153e53" finished#
+#2026 06 13 13:01:35.366#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+Step "Bind Service to Application" finished#
+#2026 06 13 13:01:35.373#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35269#
+[BindServiceToApplicationStep] Async operation of service binding "588526fd-a91b-4e0d-a01d-10864df9e787" is in state "POLLING" warnings ""#
+#2026 06 13 13:01:35.373#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35269#
+Step "Bind Service to Application" finished#
+#2026 06 13 13:01:35.375#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35267#
+[BindServiceToApplicationStep] Async service binding operation with id "6c31f231-abea-45d0-a7e0-178b444f5b40" finished#
+#2026 06 13 13:01:35.376#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35267#
+Step "Bind Service to Application" finished#
+#2026 06 13 13:01:35.462#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "01f210c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:35.463#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "product-db-deployer" changed: true#
+#2026 06 13 13:01:35.463#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+Step "Determine vcap services properties changed" finished#
+#2026 06 13 13:01:35.489#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[UploadAppStep] Executing task "uploadAppTask" of process "01f210c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:35.490#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 13 13:01:35.490#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[UploadAppStep] Uploading application "product-db-deployer"...#
+#2026 06 13 13:01:35.495#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[UploadAppStep] Getting application "product-db-deployer"...#
+#2026 06 13 13:01:35.539#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[UploadAppStep] Getting environment of application "959766ac-bf0f-4e65-8f01-98c8b7fa36c0"...#
+#2026 06 13 13:01:35.575#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+[UploadAppStep] Calculating application digest: "product-db-deployer"#
+#2026 06 13 13:01:35.744#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35268#
+Step "Upload App" finished#
+#2026 06 13 13:01:45.228#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35272#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "ff1e09f0-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:45.230#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35272#
+[BindServiceToApplicationStep] Getting async job "960362b1-e14a-4985-bdd6-0dc048dae684"#
+#2026 06 13 13:01:45.235#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35274#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "fdbd8f4c-6727-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:45.236#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35274#
+[BindServiceToApplicationStep] Getting async job "588526fd-a91b-4e0d-a01d-10864df9e787"#
+#2026 06 13 13:01:45.260#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35272#
+[BindServiceToApplicationStep] Getting service instance "product-destination"...#
+#2026 06 13 13:01:45.263#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35274#
+[BindServiceToApplicationStep] Getting service instance "gem-hana-db"...#
+#2026 06 13 13:01:45.383#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35274#
+[BindServiceToApplicationStep] Async service binding operation with id "588526fd-a91b-4e0d-a01d-10864df9e787" finished#
+#2026 06 13 13:01:45.384#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35274#
+Step "Bind Service to Application" finished#
+#2026 06 13 13:01:45.399#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35272#
+[BindServiceToApplicationStep] Async service binding operation with id "960362b1-e14a-4985-bdd6-0dc048dae684" finished#
+#2026 06 13 13:01:45.400#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35272#
+Step "Bind Service to Application" finished#
+#2026 06 13 13:01:45.748#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35270#
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:45.750#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35270#
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "product-srv" changed: true#
+#2026 06 13 13:01:45.750#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35270#
+Step "Determine vcap services properties changed" finished#
+#2026 06 13 13:01:45.242#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35275#
+[UploadAppStep] Executing task "uploadAppTask" of process "01f210c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:45.243#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35275#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 13 13:01:45.245#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Upload of application: product-db-deployer started on instance: 0#
+#2026 06 13 13:01:45.245#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Uploading file "product-db-deployer/data.zip" for application "product-db-deployer"#
+#2026 06 13 13:01:45.379#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Time elapsed for app binary download: 134 in millis#
+#2026 06 13 13:01:45.379#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Size of app product-db-deployer is 2,475,478 bytes#
+#2026 06 13 13:01:45.379#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Asynchronously uploading binaries for application "product-db-deployer"...#
+#2026 06 13 13:01:45.599#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Started async upload of application "product-db-deployer"#
+#2026 06 13 13:01:45.604#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35275#
+[UploadAppStep] Time elapsed for upload: 360 in millis#
+#2026 06 13 13:01:45.604#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35275#
+[UploadAppStep] Getting application "product-db-deployer"...#
+#2026 06 13 13:01:45.631#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#App upload monitor: 30bbc27c-b939-4b78-897d-68496e34cc62#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 06 13 13:01:45.651#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35275#
+[UploadAppStep] Getting environment of application "959766ac-bf0f-4e65-8f01-98c8b7fa36c0"...#
+#2026 06 13 13:01:45.682#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35275#
+[UploadAppStep] Updating environment of application "product-db-deployer"#
+#2026 06 13 13:01:45.766#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35275#
+Step "Upload App" finished#
+#2026 06 13 13:01:45.774#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35270#
+[UploadAppStep] Executing task "uploadAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:45.774#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35270#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 13 13:01:45.775#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35270#
+[UploadAppStep] Uploading application "product-srv"...#
+#2026 06 13 13:01:45.781#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35270#
+[UploadAppStep] Getting application "product-srv"...#
+#2026 06 13 13:01:45.827#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35270#
+[UploadAppStep] Getting environment of application "84556bbe-1d34-4871-9c5c-d66f80cf69c4"...#
+#2026 06 13 13:01:45.860#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35270#
+[UploadAppStep] Calculating application digest: "product-srv"#
+#2026 06 13 13:01:45.980#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35270#
+Step "Upload App" finished#
+#2026 06 13 13:01:50.669#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#App upload monitor: 30bbc27c-b939-4b78-897d-68496e34cc62#
+[UploadAppStep] Upload status: READY#
+#2026 06 13 13:01:55.256#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[UploadAppStep] Executing task "uploadAppTask" of process "01f210c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:55.257#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 13 13:01:55.257#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[UploadAppStep] Checking upload status of application "product-db-deployer"...#
+#2026 06 13 13:01:55.258#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35283#
+[UploadAppStep] Executing task "uploadAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:55.258#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[UploadAppStep] Getting package "30bbc27c-b939-4b78-897d-68496e34cc62"...#
+#2026 06 13 13:01:55.259#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35283#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 13 13:01:55.260#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Upload of application: product-srv started on instance: 0#
+#2026 06 13 13:01:55.260#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Uploading file "product-srv/data.zip" for application "product-srv"#
+#2026 06 13 13:01:55.286#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[UploadAppStep] Application "product-db-deployer" uploaded#
+#2026 06 13 13:01:55.287#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+Step "Upload App" finished#
+#2026 06 13 13:01:55.314#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[ScaleAppStep] Executing task "scaleAppTask" of process "01f210c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:55.315#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[ScaleAppStep] Scaling application "product-db-deployer"...#
+#2026 06 13 13:01:55.315#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[ScaleAppStep] Application "product-db-deployer" scaled#
+#2026 06 13 13:01:55.315#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+Step "Scale App" finished#
+#2026 06 13 13:01:55.338#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "01f210c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:55.339#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[DetermineDesiredStateAchievingActionsStep] Getting application "product-db-deployer"...#
+#2026 06 13 13:01:55.384#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "product-db-deployer"...#
+#2026 06 13 13:01:55.384#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "959766ac-bf0f-4e65-8f01-98c8b7fa36c0"...#
+#2026 06 13 13:01:55.418#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[DetermineDesiredStateAchievingActionsStep] Current state of application product-db-deployer: STOPPED#
+#2026 06 13 13:01:55.418#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[DetermineDesiredStateAchievingActionsStep] Desired state of application product-db-deployer: STOPPED#
+#2026 06 13 13:01:55.419#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application product-db-deployer: [STAGE]#
+#2026 06 13 13:01:55.419#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+Step "Determine Desired State Achieving Actions" finished#
+#2026 06 13 13:01:55.446#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[StageAppStep] Executing task "stageAppTask" of process "01f210c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:01:55.447#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 13 13:01:55.448#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[StageAppStep] Staging application "product-db-deployer"...#
+#2026 06 13 13:01:55.453#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+[StageAppStep] Creating build for package "30bbc27c-b939-4b78-897d-68496e34cc62"...#
+#2026 06 13 13:01:55.817#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35282#
+Step "Stage App" finished#
+#2026 06 13 13:01:55.510#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Time elapsed for app binary download: 249 in millis#
+#2026 06 13 13:01:55.510#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Size of app product-srv is 12,281,461 bytes#
+#2026 06 13 13:01:55.510#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Asynchronously uploading binaries for application "product-srv"...#
+#2026 06 13 13:01:55.760#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#pool-21-thread-1#
+[UploadAppStep] Started async upload of application "product-srv"#
+#2026 06 13 13:01:55.764#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35283#
+[UploadAppStep] Time elapsed for upload: 505 in millis#
+#2026 06 13 13:01:55.764#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35283#
+[UploadAppStep] Getting application "product-srv"...#
+#2026 06 13 13:01:55.798#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#App upload monitor: fbe60e69-b34a-4780-91b8-53961dc24242#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 06 13 13:01:55.806#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35283#
+[UploadAppStep] Getting environment of application "84556bbe-1d34-4871-9c5c-d66f80cf69c4"...#
+#2026 06 13 13:01:55.839#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35283#
+[UploadAppStep] Updating environment of application "product-srv"#
+#2026 06 13 13:01:55.920#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35283#
+Step "Upload App" finished#
+#2026 06 13 13:02:00.829#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#App upload monitor: fbe60e69-b34a-4780-91b8-53961dc24242#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 06 13 13:02:05.272#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35291#
+[UploadAppStep] Executing task "uploadAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:05.273#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35291#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:05.273#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35291#
+[UploadAppStep] Checking upload status of application "product-srv"...#
+#2026 06 13 13:02:05.273#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35291#
+[UploadAppStep] Getting package "fbe60e69-b34a-4780-91b8-53961dc24242"...#
+#2026 06 13 13:02:05.299#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35291#
+Step "Upload App" finished#
+#2026 06 13 13:02:05.266#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35292#
+[StageAppStep] Executing task "stageAppTask" of process "01f210c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:05.267#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35292#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:05.268#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35292#
+[StageAppStep] Checking status of application "product-db-deployer"...#
+#2026 06 13 13:02:05.268#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35292#
+[StageAppStep] Getting build "396610e7-bb7b-4396-9c79-5fc0c73a4e5a"...#
+#2026 06 13 13:02:05.299#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35292#
+[StageAppStep] Staging status of application "product-db-deployer": PENDING#
+#2026 06 13 13:02:05.302#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35292#
+[StageAppStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:02:05.417#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35292#
+Step "Stage App" finished#
+#2026 06 13 13:02:05.860#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#App upload monitor: fbe60e69-b34a-4780-91b8-53961dc24242#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 06 13 13:02:10.884#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#App upload monitor: fbe60e69-b34a-4780-91b8-53961dc24242#
+[UploadAppStep] Upload status: READY#
+#2026 06 13 13:02:15.279#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35295#
+[UploadAppStep] Executing task "uploadAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:15.280#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35295#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:15.280#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35295#
+[UploadAppStep] Checking upload status of application "product-srv"...#
+#2026 06 13 13:02:15.280#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35295#
+[UploadAppStep] Getting package "fbe60e69-b34a-4780-91b8-53961dc24242"...#
+#2026 06 13 13:02:15.308#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35295#
+[UploadAppStep] Application "product-srv" uploaded#
+#2026 06 13 13:02:15.309#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35295#
+Step "Upload App" finished#
+#2026 06 13 13:02:15.334#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35297#
+[ScaleAppStep] Executing task "scaleAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:15.336#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35297#
+[ScaleAppStep] Scaling application "product-srv"...#
+#2026 06 13 13:02:15.336#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35297#
+[ScaleAppStep] Application "product-srv" scaled#
+#2026 06 13 13:02:15.336#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35297#
+Step "Scale App" finished#
+#2026 06 13 13:02:15.286#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35296#
+[StageAppStep] Executing task "stageAppTask" of process "01f210c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:15.287#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35296#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:15.287#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35296#
+[StageAppStep] Checking status of application "product-db-deployer"...#
+#2026 06 13 13:02:15.287#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35296#
+[StageAppStep] Getting build "396610e7-bb7b-4396-9c79-5fc0c73a4e5a"...#
+#2026 06 13 13:02:15.319#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35296#
+[StageAppStep] Staging status of application "product-db-deployer": PENDING#
+#2026 06 13 13:02:15.322#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35296#
+[StageAppStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:02:15.431#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35296#
+Step "Stage App" finished#
+#2026 06 13 13:02:15.357#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35298#
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:15.358#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35298#
+[DetermineDesiredStateAchievingActionsStep] Getting application "product-srv"...#
+#2026 06 13 13:02:15.402#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35298#
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "product-srv"...#
+#2026 06 13 13:02:15.402#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35298#
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "84556bbe-1d34-4871-9c5c-d66f80cf69c4"...#
+#2026 06 13 13:02:15.440#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35298#
+[DetermineDesiredStateAchievingActionsStep] Current state of application product-srv: STOPPED#
+#2026 06 13 13:02:15.441#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35298#
+[DetermineDesiredStateAchievingActionsStep] Desired state of application product-srv: STARTED#
+#2026 06 13 13:02:15.441#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35298#
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application product-srv: [STAGE, START]#
+#2026 06 13 13:02:15.441#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35298#
+Step "Determine Desired State Achieving Actions" finished#
+#2026 06 13 13:02:15.468#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35299#
+[StageAppStep] Executing task "stageAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:15.469#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35299#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:15.470#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35299#
+[StageAppStep] Staging application "product-srv"...#
+#2026 06 13 13:02:15.474#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35299#
+[StageAppStep] Creating build for package "fbe60e69-b34a-4780-91b8-53961dc24242"...#
+#2026 06 13 13:02:15.882#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35299#
+Step "Stage App" finished#
+#2026 06 13 13:02:25.293#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35302#
+[StageAppStep] Executing task "stageAppTask" of process "01f210c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:25.294#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35302#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:25.294#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35302#
+[StageAppStep] Checking status of application "product-db-deployer"...#
+#2026 06 13 13:02:25.294#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35302#
+[StageAppStep] Getting build "396610e7-bb7b-4396-9c79-5fc0c73a4e5a"...#
+#2026 06 13 13:02:25.302#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35303#
+[StageAppStep] Executing task "stageAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:25.303#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35303#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:25.303#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35303#
+[StageAppStep] Checking status of application "product-srv"...#
+#2026 06 13 13:02:25.304#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35303#
+[StageAppStep] Getting build "ebc95f37-2156-4d1d-a462-c51a785d5ed7"...#
+#2026 06 13 13:02:25.331#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35302#
+[StageAppStep] Staging status of application "product-db-deployer": STAGED#
+#2026 06 13 13:02:25.334#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35302#
+[StageAppStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:02:25.338#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35303#
+[StageAppStep] Staging status of application "product-srv": PENDING#
+#2026 06 13 13:02:25.340#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35303#
+[StageAppStep] Getting application guid "product-srv"...#
+#2026 06 13 13:02:25.434#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35303#
+Step "Stage App" finished#
+#2026 06 13 13:02:25.434#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35302#
+[StageAppStep] Getting build "396610e7-bb7b-4396-9c79-5fc0c73a4e5a"...#
+#2026 06 13 13:02:25.465#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35302#
+[StageAppStep] Binding droplet "ecfb0b6e-8d8e-411e-aa35-cb349d9dc092" to application "959766ac-bf0f-4e65-8f01-98c8b7fa36c0"...#
+#2026 06 13 13:02:25.514#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35302#
+[StageAppStep] Application "product-db-deployer" staged#
+#2026 06 13 13:02:25.519#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35302#
+Step "Stage App" finished#
+#2026 06 13 13:02:25.585#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35305#
+[PrepareToExecuteTasksStep] Executing task "prepareToExecuteTasksTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:25.586#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35305#
+Step "Prepare To Execute Tasks" finished#
+#2026 06 13 13:02:25.611#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35306#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:25.611#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35306#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:02:25.613#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35306#
+[ExecuteTaskStep] Executing task "deploy" on application "product-db-deployer"...#
+#2026 06 13 13:02:25.616#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35306#
+[ExecuteTaskStep] Running task on application "product-db-deployer": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2026 06 13 13:02:25.914#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35306#
+Step "Execute Task" finished#
+#2026 06 13 13:02:35.315#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35309#
+[StageAppStep] Executing task "stageAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:35.315#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35309#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:35.316#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35309#
+[StageAppStep] Checking status of application "product-srv"...#
+#2026 06 13 13:02:35.316#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35309#
+[StageAppStep] Getting build "ebc95f37-2156-4d1d-a462-c51a785d5ed7"...#
+#2026 06 13 13:02:35.355#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35309#
+[StageAppStep] Staging status of application "product-srv": PENDING#
+#2026 06 13 13:02:35.357#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35309#
+[StageAppStep] Getting application guid "product-srv"...#
+#2026 06 13 13:02:35.450#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35309#
+Step "Stage App" finished#
+#2026 06 13 13:02:35.315#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35310#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:35.316#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35310#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:02:35.317#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35310#
+[ExecuteTaskStep] Getting task "b9c85c38-35cc-410a-b755-27a7f68b2d89"...#
+#2026 06 13 13:02:35.354#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35310#
+[ExecuteTaskStep] Task execution status: running#
+#2026 06 13 13:02:35.357#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35310#
+[ExecuteTaskStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:02:35.465#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35310#
+Step "Execute Task" finished#
+#2026 06 13 13:02:45.321#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35312#
+[StageAppStep] Executing task "stageAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:45.322#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35312#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:45.323#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35312#
+[StageAppStep] Checking status of application "product-srv"...#
+#2026 06 13 13:02:45.323#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35312#
+[StageAppStep] Getting build "ebc95f37-2156-4d1d-a462-c51a785d5ed7"...#
+#2026 06 13 13:02:45.356#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35312#
+[StageAppStep] Staging status of application "product-srv": PENDING#
+#2026 06 13 13:02:45.359#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35312#
+[StageAppStep] Getting application guid "product-srv"...#
+#2026 06 13 13:02:45.494#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35312#
+Step "Stage App" finished#
+#2026 06 13 13:02:45.337#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13735#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:45.338#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13735#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:02:45.340#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13735#
+[ExecuteTaskStep] Getting task "b9c85c38-35cc-410a-b755-27a7f68b2d89"...#
+#2026 06 13 13:02:45.376#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13735#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 06 13 13:02:45.378#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13735#
+[ExecuteTaskStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:02:45.534#Z#ERROR#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13735#
+[ExecuteTaskStep] Execution of task "deploy" on application "product-db-deployer" failed.#
+#2026 06 13 13:02:45.542#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13735#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 06 13 13:02:45.546#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-13735#
+Step "Execute Task" finished#
+#2026 06 13 13:02:47.824#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35313#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:47.825#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35313#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:02:47.827#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35313#
+[ExecuteTaskStep] Executing task "deploy" on application "product-db-deployer"...#
+#2026 06 13 13:02:47.831#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35313#
+[ExecuteTaskStep] Running task on application "product-db-deployer": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2026 06 13 13:02:48.158#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35313#
+Step "Execute Task" finished#
+#2026 06 13 13:02:55.338#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35317#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:55.339#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35317#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:02:55.340#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35317#
+[ExecuteTaskStep] Getting task "6178516b-ee4d-45a1-a3f3-41fd5a4af1bc"...#
+#2026 06 13 13:02:55.370#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35317#
+[ExecuteTaskStep] Task execution status: running#
+#2026 06 13 13:02:55.372#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35317#
+[ExecuteTaskStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:02:55.514#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35317#
+Step "Execute Task" finished#
+#2026 06 13 13:02:55.333#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35316#
+[StageAppStep] Executing task "stageAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:55.334#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35316#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:55.334#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35316#
+[StageAppStep] Checking status of application "product-srv"...#
+#2026 06 13 13:02:55.334#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35316#
+[StageAppStep] Getting build "ebc95f37-2156-4d1d-a462-c51a785d5ed7"...#
+#2026 06 13 13:02:55.366#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35316#
+[StageAppStep] Staging status of application "product-srv": STAGED#
+#2026 06 13 13:02:55.368#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35316#
+[StageAppStep] Getting application guid "product-srv"...#
+#2026 06 13 13:02:55.469#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35316#
+[StageAppStep] Getting build "ebc95f37-2156-4d1d-a462-c51a785d5ed7"...#
+#2026 06 13 13:02:55.517#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35316#
+[StageAppStep] Binding droplet "410d04c1-8c0d-4f07-917d-d5d209f9c8e3" to application "84556bbe-1d34-4871-9c5c-d66f80cf69c4"...#
+#2026 06 13 13:02:55.563#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35316#
+[StageAppStep] Application "product-srv" staged#
+#2026 06 13 13:02:55.567#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35316#
+Step "Stage App" finished#
+#2026 06 13 13:02:55.599#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35318#
+[RestartAppStep] Executing task "startAppTask" of process "081395d3-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:02:55.600#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35318#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 13 13:02:55.601#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35318#
+[RestartAppStep] Getting application "product-srv"...#
+#2026 06 13 13:02:55.646#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35318#
+[RestartAppStep] Starting application "product-srv"...#
+#2026 06 13 13:02:55.650#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35318#
+[RestartAppStep] Starting application "product-srv"...#
+#2026 06 13 13:02:55.902#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35318#
+Step "Start App" finished#
+#2026 06 13 13:03:05.344#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35321#
+[RestartAppStep] Executing task "startAppTask" of process "31eb41ae-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:05.346#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35321#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 13 13:03:05.347#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35321#
+[RestartAppStep] Checking status of application "product-srv"...#
+#2026 06 13 13:03:05.347#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35321#
+[RestartAppStep] Getting application "product-srv"...#
+#2026 06 13 13:03:05.396#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35321#
+[RestartAppStep] Getting instances for application "product-srv"...#
+#2026 06 13 13:03:05.448#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35321#
+[RestartAppStep] Application "product-srv": 0 of 1 instances running (1 starting)#
+#2026 06 13 13:03:05.503#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35321#
+Step "Start App" finished#
+#2026 06 13 13:03:05.349#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35322#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:05.350#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35322#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:03:05.351#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35322#
+[ExecuteTaskStep] Getting task "6178516b-ee4d-45a1-a3f3-41fd5a4af1bc"...#
+#2026 06 13 13:03:05.386#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35322#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 06 13 13:03:05.387#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35322#
+[ExecuteTaskStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:03:05.526#Z#ERROR#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35322#
+[ExecuteTaskStep] Execution of task "deploy" on application "product-db-deployer" failed.#
+#2026 06 13 13:03:05.531#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35322#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 06 13 13:03:05.534#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35322#
+Step "Execute Task" finished#
+#2026 06 13 13:03:06.190#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35323#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:06.191#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35323#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:03:06.271#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35323#
+[ExecuteTaskStep] Executing task "deploy" on application "product-db-deployer"...#
+#2026 06 13 13:03:06.275#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35323#
+[ExecuteTaskStep] Running task on application "product-db-deployer": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2026 06 13 13:03:06.560#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35323#
+Step "Execute Task" finished#
+#2026 06 13 13:03:15.363#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35326#
+[RestartAppStep] Executing task "startAppTask" of process "37a419c2-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:15.365#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35326#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 13 13:03:15.366#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35326#
+[RestartAppStep] Checking status of application "product-srv"...#
+#2026 06 13 13:03:15.367#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35326#
+[RestartAppStep] Getting instances for application "product-srv"...#
+#2026 06 13 13:03:15.423#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35326#
+[RestartAppStep] Application "product-srv": 0 of 1 instances running (1 starting)#
+#2026 06 13 13:03:15.481#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35326#
+Step "Start App" finished#
+#2026 06 13 13:03:15.364#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35327#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:15.365#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35327#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:03:15.367#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35327#
+[ExecuteTaskStep] Getting task "608189a4-e1a4-4d61-b45e-50ccc00fa73c"...#
+#2026 06 13 13:03:15.394#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35327#
+[ExecuteTaskStep] Task execution status: running#
+#2026 06 13 13:03:15.396#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35327#
+[ExecuteTaskStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:03:15.563#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35327#
+Step "Execute Task" finished#
+#2026 06 13 13:03:25.372#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35330#
+[RestartAppStep] Executing task "startAppTask" of process "3d96ed9c-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:25.373#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35330#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 13 13:03:25.374#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35330#
+[RestartAppStep] Checking status of application "product-srv"...#
+#2026 06 13 13:03:25.375#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35330#
+[RestartAppStep] Getting instances for application "product-srv"...#
+#2026 06 13 13:03:25.415#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35330#
+[RestartAppStep] Application "product-srv": 0 of 1 instances running (1 starting)#
+#2026 06 13 13:03:25.478#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35330#
+Step "Start App" finished#
+#2026 06 13 13:03:25.377#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35331#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:25.377#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35331#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:03:25.378#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35331#
+[ExecuteTaskStep] Getting task "608189a4-e1a4-4d61-b45e-50ccc00fa73c"...#
+#2026 06 13 13:03:25.410#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35331#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 06 13 13:03:25.412#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35331#
+[ExecuteTaskStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:03:25.561#Z#ERROR#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35331#
+[ExecuteTaskStep] Execution of task "deploy" on application "product-db-deployer" failed.#
+#2026 06 13 13:03:25.566#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35331#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 06 13 13:03:25.570#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35331#
+Step "Execute Task" finished#
+#2026 06 13 13:03:27.468#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35332#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:27.469#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35332#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:03:27.549#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35332#
+[ExecuteTaskStep] Executing task "deploy" on application "product-db-deployer"...#
+#2026 06 13 13:03:27.553#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35332#
+[ExecuteTaskStep] Running task on application "product-db-deployer": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2026 06 13 13:03:27.872#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35332#
+Step "Execute Task" finished#
+#2026 06 13 13:03:35.383#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35335#
+[RestartAppStep] Executing task "startAppTask" of process "438c3273-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:35.384#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35335#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 13 13:03:35.385#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35335#
+[RestartAppStep] Checking status of application "product-srv"...#
+#2026 06 13 13:03:35.385#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35335#
+[RestartAppStep] Getting instances for application "product-srv"...#
+#2026 06 13 13:03:35.455#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35335#
+[RestartAppStep] Application "product-srv": 0 of 1 instances running (1 starting)#
+#2026 06 13 13:03:35.490#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35335#
+Step "Start App" finished#
+#2026 06 13 13:03:35.388#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35336#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:35.389#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35336#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:03:35.390#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35336#
+[ExecuteTaskStep] Getting task "e19bf189-7e9d-4b14-953c-c6115a295307"...#
+#2026 06 13 13:03:35.418#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35336#
+[ExecuteTaskStep] Task execution status: running#
+#2026 06 13 13:03:35.419#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35336#
+[ExecuteTaskStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:03:35.561#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35336#
+Step "Execute Task" finished#
+#2026 06 13 13:03:45.406#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35340#
+[RestartAppStep] Executing task "startAppTask" of process "4983c13d-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:45.407#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35340#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 13 13:03:45.408#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35340#
+[RestartAppStep] Checking status of application "product-srv"...#
+#2026 06 13 13:03:45.408#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35340#
+[RestartAppStep] Getting instances for application "product-srv"...#
+#2026 06 13 13:03:45.447#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35340#
+[RestartAppStep] Application "product-srv": 0 of 1 instances running (1 crashed)#
+#2026 06 13 13:03:45.505#Z#ERROR#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35340#
+[RestartAppStep] Error starting application "product-srv": Some instances have crashed. Check the application logs of your application for details.#
+#2026 06 13 13:03:45.509#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35340#
+[RestartAppStep] Download the MTA operation logs for more details.#
+#2026 06 13 13:03:45.513#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35340#
+Step "Start App" finished#
+#2026 06 13 13:03:45.399#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35339#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "1fd37315-6728-11f1-9415-eeee0a882989"...#
+#2026 06 13 13:03:45.399#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35339#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 13 13:03:45.401#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35339#
+[ExecuteTaskStep] Getting task "e19bf189-7e9d-4b14-953c-c6115a295307"...#
+#2026 06 13 13:03:45.430#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35339#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 06 13 13:03:45.431#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35339#
+[ExecuteTaskStep] Getting application guid "product-db-deployer"...#
+#2026 06 13 13:03:45.585#Z#ERROR#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35339#
+[ExecuteTaskStep] Execution of task "deploy" on application "product-db-deployer" failed.#
+#2026 06 13 13:03:45.590#Z#INFO#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35339#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 06 13 13:03:45.594#Z#DEBUG#f52eb3fc-6727-11f1-bc0c-eeee0a9c2b38.OPERATION#flowable-async-job-executor-thread-35339#
+Step "Execute Task" finished#

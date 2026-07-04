@@ -1,0 +1,237 @@
+### 1. Leer Productos Públicos (Disparará tu ON READ personalizado)
+GET http://localhost:4004/api/v1/tutorial01/ProductosPublicos
+
+
+### 2. Leer los Autos
+GET http://localhost:4004/api/v1/tutorial01/car
+
+
+### 3. Crear un nuevo Auto (Petición POST)
+POST http://localhost:4004/api/v1/tutorial01/car
+Content-Type: application/json
+
+{
+  "id": "123e4567-e89b-12d3-a456-426614174000",
+  "name": "El Carro del Dios CAP"
+}
+
+
+### 4. Prueba de Fuego: Intentar crear una Categoría
+POST http://localhost:4004/api/v1/tutorial01/Categorias
+Content-Type: application/json
+
+{
+  "id": "Z",
+  "name": "Zona Prohibida"
+}
+
+
+### 5. Leer Productos Públicos con FILTRO (Menos de 100)
+GET http://localhost:4004/api/v1/tutorial01/ProductosPublicos?$filter=precioVenta lt 100
+
+
+### 6. Crear un Proveedor de prueba
+POST http://localhost:4004/api/v1/tutorial01/Supplier
+Content-Type: application/json
+
+{
+  "id": "999e4567-e89b-12d3-a456-426614174000",
+  "name": "Proveedor VIP",
+  "email": "alberto.einstein@ciencia.com",
+  "phone": null
+}
+
+### 7. Leer los Proveedores (Disparará tu nuevo AFTER READ de Seguridad)
+GET http://localhost:4004/api/v1/tutorial01/Supplier
+
+
+### 8. Crear un nuevo Auto (Disparará tu ON CREATE)
+POST http://localhost:4004/api/v1/tutorial01/car
+Content-Type: application/json
+
+{
+  "id": "777e4567-e89b-12d3-a456-426614174000",
+  "name": "DeLorean Volador"
+}
+
+### Prueba de Seguridad 1: Auto Inválido (Rechazado por el BEFORE)
+POST http://localhost:4004/api/v1/tutorial01/car
+Content-Type: application/json
+
+{
+  "id": "111e4567-e89b-12d3-a456-426614174000",
+  "name": "X"
+}
+
+
+### Prueba de Seguridad 2: Auto Válido (Transformado por el BEFORE)
+POST http://localhost:4004/api/v1/tutorial01/car
+Content-Type: application/json
+
+{
+  "id": "222e4567-e89b-12d3-a456-426614174000",
+  "name": "batimovil de gotham"
+}
+
+
+### Modificar un Auto (Debe fallar por la regla del FIAT)
+PATCH http://localhost:4004/api/v1/tutorial01/car(222e4567-e89b-12d3-a456-426614174000)
+Content-Type: application/json
+
+{
+  "name": "FIAT"
+}
+
+
+### Modificar un Auto (Actualización correcta)
+PATCH http://localhost:4004/api/v1/tutorial01/car(1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d)
+Content-Type: application/json
+
+{
+  "name": "BATIMOVIL BLINDADO"
+}
+
+
+### Modificar un Auto (Debe fallar porque el ID no existe)
+PATCH http://localhost:4004/api/v1/tutorial01/car(99999999-9999-9999-9999-999999999999)
+Content-Type: application/json
+
+{
+  "name": "AUTO FANTASMA"
+}
+
+
+### Borrar un Auto (La Destrucción Final)
+DELETE http://localhost:4004/api/v1/tutorial01/car(1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d)
+
+
+
+### ==============================================================
+### PROBAR LAS FUNCIONES CON LA NUEVA RUTA EMPRESARIAL
+### ==============================================================
+
+### Probar Función 1: Descuento para el Batimóvil
+GET http://localhost:4004/api/v1/tutorial01/getCarDiscount(brand='BATIMOVIL')
+
+###
+
+### Probar Función 2: Descuento para un auto normal
+GET http://localhost:4004/api/v1/tutorial01/getCarDiscount(brand='TOYOTA')
+
+
+### ==============================================================
+### TEMA 13.2: PROBAR ACCIONES (POST con Body)
+### ==============================================================
+
+### Probar Acción: Solicitar Auto Especial
+POST http://localhost:4004/api/v1/tutorial01/solicitarAutoEspecial
+Content-Type: application/json
+
+{
+  "marca": "PORSCHE 911 BLINDADO"
+}
+
+
+### ==============================================================
+### TEMA 13.4: FUNCIONES Y ACCIONES VINCULADAS (Bound)
+### ==============================================================
+
+### 1. Probar Función Vinculada (GET)
+# Ojo a la sintaxis: car(ID)/Namespace.NombreDeFuncion()
+GET http://localhost:4004/api/v1/tutorial01/car(777e4567-e89b-12d3-a456-426614174000)/CatalogService.consultarStockFisico()
+
+### 14.2
+GET http://localhost:4004/api/v1/tutorial01/ProductosNorte
+
+### 2. Probar Acción Vinculada (POST)
+# Ojo a la sintaxis: car(ID)/Namespace.NombreDeAccion
+POST http://localhost:4004/api/v1/tutorial01/car(777e4567-e89b-12d3-a456-426614174000)/CatalogService.marcarComoVendido
+Content-Type: application/json
+
+{
+  "comprador": "Marty McFly"
+}
+
+### ==============================================================
+### TEMA 14.3: PROBAR EL BOOTSTRAP (Endpoint REST puro)
+### ==============================================================
+
+### Prueba de Health Check (Ping)
+GET http://localhost:4004/api/ping
+
+
+### ==============================================================
+### TEMA 14.4: PRUEBA DE CORS (Simulando petición desde otro puerto)
+### ==============================================================
+
+GET http://localhost:4004/api/v1/tutorial01/car
+Origin: http://localhost:8080
+
+
+
+### ==============================================================
+### TEMA 14.7: OData V4 vs OData V2 (El Traductor en Acción)
+### ==============================================================
+
+### 1. El Idioma Moderno (OData V4) - Tu puerta normal
+GET http://localhost:4004/api/v1/tutorial01/ProductosNorte
+
+### 2. El Idioma Antiguo (OData V2) - La puerta del Traductor
+# Fíjate que le pusimos /v2 justo después del puerto 4004
+GET http://localhost:4004/v2/api/v1/tutorial01/ProductosNorte
+
+
+### ==============================================================
+### TEMA 14.9: LA GRAN COMPARACIÓN (ODATA vs REST)
+### ==============================================================
+
+### 1. Puerta ODATA (La clásica) -> El JSON viene envuelto y con metadatos
+GET http://localhost:4004/api/v1/tutorial01/car
+
+### 2. Puerta REST (La nueva) -> El JSON es un arreglo puro y crudo
+GET http://localhost:4004/api/v1/rest/AutosCrudos
+
+
+
+
+
+
+
+
+
+### Prueba de lectura de autos con headers correctos
+GET http://localhost:4004/api/v1/tutorial01/car
+Accept: application/json
+
+
+//////////////////------------------------------
+
+
+### ==============================================================
+### PRUEBAS DE LA ENTIDAD CAR (RUTAS ESTÁNDAR ODATA V4)
+### ==============================================================
+
+### 1. Leer TODOS los Autos
+GET http://localhost:4004/odata/v4/catalog/car
+Accept: application/json
+
+
+### 2. Leer un Auto específico (Reemplaza el UUID por uno real de tu base de datos)
+GET http://localhost:4004/odata/v4/catalog/car(123e4567-e89b-12d3-a456-426614174000)
+Accept: application/json
+
+
+### 3. Probar tu Función Vinculada (GET)
+# Ojo a la sintaxis: car(ID)/Namespace.NombreDeFuncion()
+GET http://localhost:4004/odata/v4/catalog/car(777e4567-e89b-12d3-a456-426614174000)/CatalogService.consultarStockFisico()
+
+
+### 4. Probar tu Acción Vinculada (POST)
+# Ojo a la sintaxis: car(ID)/Namespace.NombreDeAccion
+POST http://localhost:4004/odata/v4/catalog/car(777e4567-e89b-12d3-a456-426614174000)/CatalogService.marcarComoVendido
+Content-Type: application/json
+
+{
+  "comprador": "Marty McFly"
+}
+

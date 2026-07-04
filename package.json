@@ -2,13 +2,49 @@
   "name": "product",
   "version": "1.0.0",
   "dependencies": {
-    "@sap/cds": "^9"
+    "@cap-js/graphql": "^0.14.0",
+    "@cap-js/openapi": "^1.4.2",
+    "@sap-cloud-sdk/connectivity": "^4",
+    "@sap-cloud-sdk/http-client": "^4",
+    "@sap-cloud-sdk/resilience": "^4",
+    "@sap/cds": "^9",
+    "@sap/cds-odata-v2-adapter-proxy": "^1.9.21",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2"
   },
   "devDependencies": {
-    "@cap-js/sqlite": "^2.4"
+    "@cap-js/sqlite": "^2.4",
+    "@sap/cds-dk": "^9",
+    "cds-plugin-ui5": "^0.13.0",
+    "cds-swagger-ui-express": "^0.11.0"
   },
-  "scripts": {
-    "start": "cds watch"
+"scripts": {
+    "start": "cds-serve",
+    "watch-autosfiori": "cds watch --open com.omrv.autosfiori/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
-  "private": true
+  "private": true,
+  "cds": {
+    "protocols": {
+      "graphql": {
+        "path": "/graphql",
+        "impl": "@cap-js/graphql"
+      }
+    },
+    "requires": {
+      "openapi": true,
+      "Northwind": {
+        "kind": "odata-v2",
+        "model": "srv/external/Northwind",
+        "credentials": {
+          "url": "https://services.odata.org/V2/Northwind/Northwind.svc"
+        }
+      }
+    }
+  },
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/autosfiori"
+  ]
 }
