@@ -2,6 +2,7 @@ _schema-version: 3.3.0
 ID: product
 version: 1.0.0
 description: "A simple CAP project."
+
 parameters:
   enable-parallel-deployments: true
 
@@ -19,6 +20,8 @@ modules:
     parameters:
       instances: 1
       buildpack: nodejs_buildpack
+    properties:
+      NODE_ENV: production
     build-parameters:
       builder: npm-ci
     provides:
@@ -44,7 +47,7 @@ resources:
     parameters:
       service: hana
       service-plan: hdi-shared
-  
+
   - name: gem-xsuaa-service
     type: com.sap.xs.uaa
     parameters:
