@@ -1,11 +1,13 @@
-_schema-version: 3.3.0
+_schema-version: "3.3.0"
 ID: product
 version: 1.0.0
 description: "A simple CAP project."
 
+# Permite desplegar módulos en paralelo cuando sea posible
 parameters:
   enable-parallel-deployments: true
 
+# Comandos ejecutados antes de construir los módulos
 build-parameters:
   before-all:
     - builder: custom
@@ -13,50 +15,155 @@ build-parameters:
         - npm ci
         - npx cds build --production
 
+# ========================================================
+# MÓDULOS DE LA APLICACIÓN
+# ========================================================
+
 modules:
+
+  # ======================================================
+  # Backend SAP CAP con Node.js
+  # ======================================================
   - name: product-srv
     type: nodejs
     path: gen/srv
+
     parameters:
       instances: 1
       buildpack: nodejs_buildpack
+
     properties:
       NODE_ENV: production
+
     build-parameters:
       builder: npm-ci
+
     provides:
       - name: srv-api
         properties:
           srv-url: ${default-url}
+          # Publica internamente la URL del backend CAP.
+          # El App Router utilizará esta URL como Destination.
+
     requires:
       - name: gem-hana-db-v2
-      - name: gem-xsuaa-service
-      - name: product-destination
+        # HDI Container donde se encuentran las tablas de la aplicación.
 
+      - name: gem-xsuaa-service
+        # Servicio XSUAA para validar los JWT recibidos.
+
+      - name: product-destination
+        # Servicio Destination de SAP BTP.
+
+
+  # ======================================================
+  # DB Deployer
+  # Crea tablas, vistas y carga datos CSV en SAP HANA
+  # ======================================================
   - name: product-db-deployer
     type: hdb
     path: gen/db
+
     parameters:
       buildpack: nodejs_buildpack
+
     requires:
       - name: gem-hana-db-v2
+        # Autoriza al deployer a trabajar dentro del HDI Container.
+
+
+  # ======================================================
+  # Application Router
+  # Punto de entrada para el navegador y login con XSUAA
+  # ======================================================
+  - name: product
+    type: approuter.nodejs
+    path: app/router
+
+    parameters:
+      keep-existing-routes: true
+      disk-quota: 256M
+      memory: 256M
+
+    requires:
+      - name: srv-api
+        group: destinations
+        properties:
+          name: srv-api
+          # Debe coincidir con "destination": "srv-api"
+          # dentro de app/router/xs-app.json.
+
+          url: ~{srv-url}
+          # URL interna proporcionada por product-srv.
+
+          forwardAuthToken: true
+          # Reenvía al backend CAP el JWT obtenido durante el login.
+
+      - name: product-destination
+        # Binding con el servicio Destination.
+
+      - name: gem-xsuaa-service
+        # Binding necesario para login, sesión y obtención del JWT.
+
+    provides:
+      - name: app-api
+        properties:
+          app-protocol: ${protocol}
+          app-uri: ${default-uri}
+          # Publica dinámicamente el dominio del App Router.
+          # XSUAA utilizará este valor para aceptar el retorno del login.
+
+
+# ========================================================
+# RECURSOS DE SAP BTP
+# ========================================================
 
 resources:
+
+  # ======================================================
+  # HDI Container
+  # Esquema aislado para los objetos de base de datos
+  # ======================================================
   - name: gem-hana-db-v2
     type: com.sap.xs.hdi-container
+
     parameters:
       service: hana
       service-plan: hdi-shared
 
+
+  # ======================================================
+  # XSUAA
+  # Autenticación, roles, scopes y validación de JWT
+  # ======================================================
   - name: gem-xsuaa-service
     type: com.sap.xs.uaa
+
+    requires:
+      - name: app-api
+        # Permite utilizar la URL dinámica publicada
+        # por el módulo App Router.
+
     parameters:
       service: xsuaa
       service-plan: application
       path: ./xs-security.json
 
+      config:
+        oauth2-configuration:
+          redirect-uris:
+            - https://~{app-api/app-uri}/**
+            # Autoriza a XSUAA a regresar al App Router
+            # después del proceso de autenticación.
+
+
+  # ======================================================
+  # Destination Service
+  # Administración de destinos y conexiones externas
+  # ======================================================
   - name: product-destination
     type: org.cloudfoundry.managed-service
+
     parameters:
       service: destination
       service-plan: lite
