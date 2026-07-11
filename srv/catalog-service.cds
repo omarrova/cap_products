@@ -7,7 +7,7 @@ using { Northwind } from './external/Northwind';
 // ========================================================================
 // TEMA 14.5: SERVICE IMPLEMENTATION
 // ========================================================================
-git v// La anotación @impl fuerza a CAP a buscar el JavaScript en la ruta que tú le digas.
+// La anotación @impl fuerza a CAP a buscar el JavaScript en la ruta que tú le digas.
 @impl: './mi-logica-custom.js'
 
 // ========================================================================
